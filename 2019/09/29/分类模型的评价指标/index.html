@@ -79,13 +79,19 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="wgq&#39;s Blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="打个比方，我们班全班去体检，检查是否患某种病。有病的被当成有病的，没病的被当成没病的，这是我们希望的。但不是每个检查都是这么完美，不可避免，都会有有病被当成没病，没病被当成有病。这两类人越少我们的检查效果就越好，然而有的检查有病被当成没病人多，有的没病被当成有病人多。现在我们需要引入几个指标来评价这个检查好不好。类比这个，我们先来看一个二分类的图。precision(准确率)越高，没病当成有病的人">
+<meta property="og:type" content="article">
+<meta property="og:title" content="分类模型的评价指标">
+<meta property="og:url" content="http://yoursite.com/2019/09/29/分类模型的评价指标/index.html">
 <meta property="og:site_name" content="wgq&#39;s Blog">
+<meta property="og:description" content="打个比方，我们班全班去体检，检查是否患某种病。有病的被当成有病的，没病的被当成没病的，这是我们希望的。但不是每个检查都是这么完美，不可避免，都会有有病被当成没病，没病被当成有病。这两类人越少我们的检查效果就越好，然而有的检查有病被当成没病人多，有的没病被当成有病人多。现在我们需要引入几个指标来评价这个检查好不好。类比这个，我们先来看一个二分类的图。precision(准确率)越高，没病当成有病的人">
 <meta property="og:locale" content="en">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Precisionrecall.svg/525px-Precisionrecall.svg.png">
+<meta property="og:updated_time" content="2019-09-29T10:48:30.274Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="wgq&#39;s Blog">
+<meta name="twitter:title" content="分类模型的评价指标">
+<meta name="twitter:description" content="打个比方，我们班全班去体检，检查是否患某种病。有病的被当成有病的，没病的被当成没病的，这是我们希望的。但不是每个检查都是这么完美，不可避免，都会有有病被当成没病，没病被当成有病。这两类人越少我们的检查效果就越好，然而有的检查有病被当成没病人多，有的没病被当成有病人多。现在我们需要引入几个指标来评价这个检查好不好。类比这个，我们先来看一个二分类的图。precision(准确率)越高，没病当成有病的人">
+<meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Precisionrecall.svg/525px-Precisionrecall.svg.png">
 
 
 
@@ -115,13 +121,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/">
+  <link rel="canonical" href="http://yoursite.com/2019/09/29/分类模型的评价指标/">
 
 
 
 
 
-  <title>wgq's Blog</title>
+  <title>分类模型的评价指标 | wgq's Blog</title>
   
 
 
@@ -140,8 +146,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -214,9 +219,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -246,9 +251,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/09/29/分类模型的评价指标/" itemprop="url">分类模型的评价指标</a></h1>
+          <h1 class="post-title" itemprop="name headline">分类模型的评价指标</h1>
         
 
         <div class="post-meta">
@@ -298,12 +301,8 @@
       
 
       
-        
-          
-            <p>打个比方，我们班全班去体检，检查是否患某种病。<br>有病的被当成有病的，没病的被当成没病的，这是我们希望的。但不是每个检查都是这么完美，<br>不可避免，都会有有病被当成没病，没病被当成有病。这两类人越少我们的检查效果就越好，然而有的检查有病被当成没病人多，有的没病被当成有病人多。<br>现在我们需要引入几个指标来评价这个检查好不好。<br>类比这个，我们先来看一个二分类的图。<br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Precisionrecall.svg/525px-Precisionrecall.svg.png" alt="Precision and recall"><br>precision(准确率)越高，没病当成有病的人就越少。<br>recall(召回率)越高，有病当成没病的人就越少。<br>它们的计算公式如图。<br>还有一些其他的指标，详细内容见<a href="https://en.wikipedia.org/wiki/Precision_and_recall" target="_blank" rel="noopener">维基百科</a>。</p>
+        <p>打个比方，我们班全班去体检，检查是否患某种病。<br>有病的被当成有病的，没病的被当成没病的，这是我们希望的。但不是每个检查都是这么完美，<br>不可避免，都会有有病被当成没病，没病被当成有病。这两类人越少我们的检查效果就越好，然而有的检查有病被当成没病人多，有的没病被当成有病人多。<br>现在我们需要引入几个指标来评价这个检查好不好。<br>类比这个，我们先来看一个二分类的图。<br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Precisionrecall.svg/525px-Precisionrecall.svg.png" alt="Precision and recall"><br>precision(准确率)越高，没病当成有病的人就越少。<br>recall(召回率)越高，有病当成没病的人就越少。<br>它们的计算公式如图。<br>还有一些其他的指标，详细内容见<a href="https://en.wikipedia.org/wiki/Precision_and_recall" target="_blank" rel="noopener">维基百科</a>。</p>
 
-          
-        
       
     </div>
     
@@ -320,133 +319,28 @@
       
 
       
-
-      
-
       
       
-        <div class="post-eof"></div>
+
       
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/09/28/Hexo配置成功/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="wgq">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="wgq's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/09/28/Hexo配置成功/" itemprop="url">Hexo配置成功</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-09-28T16:22:25+08:00">
-                2019-09-28
-              </time>
+              <a href="/2019/09/28/Hexo配置成功/" rel="next" title="Hexo配置成功">
+                <i class="fa fa-chevron-left"></i> Hexo配置成功
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>一直想着能够在网上找块地方，整理一些知识碎片，分享一下心得。<br>今天捣鼓了很久，总算是配置成功了。<br>主要是参考网上的<a href="https://zhuanlan.zhihu.com/p/26625249" target="_blank" rel="noopener">一篇文章</a>，里面也有一些错误，少不了折腾，不过终于解决了。</p>
-<p><img src="https://pic2.zhimg.com/v2-d4c1239e75c02e8482c22017a6c8d407_1200x500.jpg" alt="hexo"></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -456,10 +350,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -467,6 +362,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -663,6 +562,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
