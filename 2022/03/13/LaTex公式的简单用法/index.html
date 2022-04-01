@@ -49,6 +49,17 @@
 <body>
   <div id="app">
     
+      <canvas class="fireworks"></canvas>
+      <style>
+        .fireworks {
+          position: fixed;
+          left: 0;
+          top: 0;
+          z-index: 99999;
+          pointer-events: none;
+        }
+      </style>
+      
       
     <main class="content on">
       <section class="outer">
@@ -105,42 +116,42 @@
     <div class="article-entry" itemprop="articleBody">
        
   <p>LATEX 是一个文档准备系统 (Document Preparing System)，它非常适用于生成高印刷质量的科技类和数学类文档。它也能够生成所有其他种类的文档，小到简单的信件，大到完整的书籍。LATEX 使用 TEX 作为它的排版引擎。本文主要介绍LATEX的数学公式语法部分。<br>关于LaTex 常用的语法更加详尽的介绍参见：<br><a target="_blank" rel="noopener" href="http://texdoc.net/texmf-dist/doc/latex/lshort-chinese/lshort-zh-cn.pdf">一份不太简短的 LATEX 2ε 介绍</a></p>
-<h2 id="0-1-公式显示位置"><a href="#0-1-公式显示位置" class="headerlink" title="0.1 公式显示位置"></a>0.1 公式显示位置</h2><h3 id="0-1-1-行内公式"><a href="#0-1-1-行内公式" class="headerlink" title="0.1.1 行内公式"></a>0.1.1 行内公式</h3><p>在公式两边各自加上一个<code>$</code>符号即是行内公式，代码如下：  </p>
+<h2 id="1-公式显示位置"><a href="#1-公式显示位置" class="headerlink" title="1 公式显示位置"></a>1 公式显示位置</h2><h3 id="1-A-行内公式"><a href="#1-A-行内公式" class="headerlink" title="1.A 行内公式"></a>1.A 行内公式</h3><p>在公式两边各自加上一个<code>$</code>符号即是行内公式，代码如下：  </p>
 <figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">这是行内公式：<span class="built_in">$</span>a<span class="built_in">^</span>2 + b<span class="built_in">^</span>2 = c<span class="built_in">^</span>2<span class="built_in">$</span> </span><br></pre></td></tr></table></figure>
 <p>效果如下：<br>这是行内公式：$a^2 + b^2 &#x3D; c^2$ 。</p>
-<h3 id="0-1-2-行间公式"><a href="#0-1-2-行间公式" class="headerlink" title="0.1.2 行间公式"></a>0.1.2 行间公式</h3><p>在公式两边各自加上2个<code>$</code>符号，或使用<code>\[</code>和<code>\]</code>，即是行间公式，源码如下：  </p>
+<h3 id="1-B-行间公式"><a href="#1-B-行间公式" class="headerlink" title="1.B 行间公式"></a>1.B 行间公式</h3><p>在公式两边各自加上2个<code>$</code>符号，或使用<code>\[</code>和<code>\]</code>，即是行间公式，源码如下：  </p>
 <figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">以下为行间公式：</span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br><span class="line">a<span class="built_in">^</span>2 + b<span class="built_in">^</span>2 = c<span class="built_in">^</span>2</span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
 <p>或者</p>
 <figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">以下为行间公式：</span><br><span class="line"><span class="keyword">\[</span></span><br><span class="line">a<span class="built_in">^</span>2 + b<span class="built_in">^</span>2 = c<span class="built_in">^</span>2</span><br><span class="line"><span class="keyword">\]</span></span><br></pre></td></tr></table></figure>
 <p>效果如下：<br>以下为行间公式：</p>
 <p>$$<br>a^2 + b^2 &#x3D; c^2<br>$$</p>
-<h2 id="0-2-数学符号"><a href="#0-2-数学符号" class="headerlink" title="0.2 数学符号"></a>0.2 数学符号</h2><h3 id="0-2-1-上下标"><a href="#0-2-1-上下标" class="headerlink" title="0.2.1 上下标"></a>0.2.1 上下标</h3><p>LaTex一般使用<code>^</code>和<code>_</code>表明上下标。注意如果上下标只对其后面的一个字符起作用，如果上下标的内容超过一个字符，则需要用花括号<code>&#123;&#125;</code>包裹，否则上下标只对后面的一个符号起作用。<br>例如：  </p>
+<h2 id="2-数学符号"><a href="#2-数学符号" class="headerlink" title="2 数学符号"></a>2 数学符号</h2><h3 id="2-A-上下标"><a href="#2-A-上下标" class="headerlink" title="2.A 上下标"></a>2.A 上下标</h3><p>LaTex一般使用<code>^</code>和<code>_</code>表明上下标。注意如果上下标只对其后面的一个字符起作用，如果上下标的内容超过一个字符，则需要用花括号<code>&#123;&#125;</code>包裹，否则上下标只对后面的一个符号起作用。<br>例如：  </p>
 <figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span>p<span class="built_in">^</span>3<span class="built_in">_</span>&#123;ij&#125; <span class="keyword">\qquad</span> <span class="keyword">\sum</span><span class="built_in">_</span>&#123;K=1&#125;<span class="built_in">^</span>3 k a<span class="built_in">^</span>x+y <span class="keyword">\qquad</span>  <span class="keyword">\neq</span> a<span class="built_in">^</span>&#123;x+y&#125;<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
 <p>效果如下：<br>$p^3_{ij} \qquad \sum_{K&#x3D;1}^3 k a^x+y \qquad  \neq a^{x+y}$</p>
-<h3 id="0-2-2-导数符号"><a href="#0-2-2-导数符号" class="headerlink" title="0.2.2 导数符号"></a>0.2.2 导数符号</h3><p>导数符号<code>&#39;</code>是一个特殊的上标，可以<strong>适当连用表示多阶导数</strong>，也可以在其后连用上标：  </p>
+<h3 id="2-B-导数符号"><a href="#2-B-导数符号" class="headerlink" title="2.B 导数符号"></a>2.B 导数符号</h3><p>导数符号<code>&#39;</code>是一个特殊的上标，可以<strong>适当连用表示多阶导数</strong>，也可以在其后连用上标：  </p>
 <figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span>f(x)=x<span class="built_in">^</span>2 <span class="keyword">\quad</span> f’(x)=2x <span class="keyword">\quad</span> f’’(x)=4<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
 
 <p>效果如下：<br>$f(x)&#x3D;x^2 \quad f’(x)&#x3D;2x \quad f’’(x)&#x3D;4$</p>
-<h3 id="0-2-3-偏导符号"><a href="#0-2-3-偏导符号" class="headerlink" title="0.2.3 偏导符号"></a>0.2.3 偏导符号</h3><p>偏导数符号为$\partial$，用 <code>\partial</code> 表示。<br>例如：  </p>
+<h3 id="2-C-偏导符号"><a href="#2-C-偏导符号" class="headerlink" title="2.C 偏导符号"></a>2.C 偏导符号</h3><p>偏导数符号为$\partial$，用 <code>\partial</code> 表示。<br>例如：  </p>
 <figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\left</span>.<span class="keyword">\frac</span>&#123;<span class="keyword">\partial</span> f(x,y)&#125;&#123;<span class="keyword">\partial</span> x&#125;<span class="keyword">\right</span>|<span class="built_in">_</span>&#123;x=0&#125;<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
 <p>效果如下：<br>$\left.\frac{\partial f(x,y)}{\partial x}\right|_{x&#x3D;0}$</p>
-<h3 id="0-2-4-分式"><a href="#0-2-4-分式" class="headerlink" title="0.2.4 分式"></a>0.2.4 分式</h3><p>1.如果是简单的分式，可以写成斜分式的形式,如 <code>3/8</code> ，在latex中分式一般使用<code>\frac&#123;分子&#125;&#123;分母&#125;</code>来书写。不过这种分式的大小在行间公式是正常显示大小，而<strong>在行内被极度压缩了</strong>。amsmath提供了方便的命令<code>\dfrac&#123;分子&#125;&#123;分母&#125;</code>和<code>\tfrac&#123;分子&#125;&#123;分母&#125;</code>,令用户能够在行内使用正常大小的行内公式。<br>例如：  </p>
+<h3 id="2-D-分式"><a href="#2-D-分式" class="headerlink" title="2.D 分式"></a>2.D 分式</h3><p>1.如果是简单的分式，可以写成斜分式的形式,如 <code>3/8</code> ，在latex中分式一般使用<code>\frac&#123;分子&#125;&#123;分母&#125;</code>来书写。不过这种分式的大小在行间公式是正常显示大小，而<strong>在行内被极度压缩了</strong>。amsmath提供了方便的命令<code>\dfrac&#123;分子&#125;&#123;分母&#125;</code>和<code>\tfrac&#123;分子&#125;&#123;分母&#125;</code>,令用户能够在行内使用正常大小的行内公式。<br>例如：  </p>
 <figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">斜分式：<span class="built_in">$</span>3/8<span class="built_in">$</span>，压缩分式：<span class="built_in">$</span><span class="keyword">\frac</span>&#123;3&#125;&#123;8&#125;<span class="built_in">$</span>，显示正常大小：<span class="built_in">$</span><span class="keyword">\dfrac</span>&#123;3&#125;&#123;8&#125;<span class="built_in">$</span>。</span><br></pre></td></tr></table></figure>
 
 <p>效果如下：<br>斜分式：$3&#x2F;8$，压缩分式：$\frac{3}{8}$，显示正常大小：$\dfrac{3}{8}$。</p>
 <p>2.特殊的分式形式，如二项式结构，由amsmath宏包的<code>\binom</code>命令生成：  </p>
 <figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br><span class="line"><span class="keyword">\binom</span>&#123;n&#125;&#123;k&#125;=<span class="keyword">\binom</span>&#123;n-1&#125;&#123;k&#125;+<span class="keyword">\binom</span>&#123;n-1&#125;&#123;k-1&#125;</span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <p>效果如下：<br>$$<br>\binom{n}{k}&#x3D;\binom{n-1}{k}+\binom{n-1}{k-1}<br>$$</p>
-<h3 id="0-2-5-根式"><a href="#0-2-5-根式" class="headerlink" title="0.2.5 根式"></a>0.2.5 根式</h3><p>一般的根式使用<code>\sqrt&#123;…&#125;</code>表示，表示n次根式写成<code>\sqrt[n]&#123;…&#125;</code>:  </p>
+<h3 id="2-E-根式"><a href="#2-E-根式" class="headerlink" title="2.E 根式"></a>2.E 根式</h3><p>一般的根式使用<code>\sqrt&#123;…&#125;</code>表示，表示n次根式写成<code>\sqrt[n]&#123;…&#125;</code>:  </p>
 <figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\sqrt</span>&#123;x&#125; <span class="keyword">\Leftrightarrow</span> x<span class="built_in">^</span>&#123;1/2&#125; <span class="keyword">\quad</span> <span class="keyword">\sqrt</span>[3]&#123;2&#125; <span class="keyword">\quad</span> <span class="keyword">\sqrt</span>&#123;x<span class="built_in">^</span>&#123;2&#125;+<span class="keyword">\sqrt</span>&#123;y&#125;&#125;<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
 <p>效果如下：<br>$\sqrt{x} \Leftrightarrow x^{1&#x2F;2} \quad \sqrt[3]{2} \quad \sqrt{x^{2}+\sqrt{y}}$</p>
-<h3 id="0-2-6-无穷大符号"><a href="#0-2-6-无穷大符号" class="headerlink" title="0.2.6 无穷大符号"></a>0.2.6 无穷大符号</h3><p>无穷大的英语缩写：infinity</p>
+<h3 id="2-F-无穷大符号"><a href="#2-F-无穷大符号" class="headerlink" title="2.F 无穷大符号"></a>2.F 无穷大符号</h3><p>无穷大的英语缩写：infinity</p>
 <figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\infty</span><span class="built_in">$</span> </span><br></pre></td></tr></table></figure>
 <p>即：$\infty$  </p>
-<h3 id="0-2-7-省略号"><a href="#0-2-7-省略号" class="headerlink" title="0.2.7 省略号"></a>0.2.7 省略号</h3><p>省略号有…<code>\dots</code>和cdots<code>\cdots</code>两种形式。他们有各自合适的用途：<br>例如：  </p>
+<h3 id="2-G-省略号"><a href="#2-G-省略号" class="headerlink" title="2.G 省略号"></a>2.G 省略号</h3><p>省略号有…<code>\dots</code>和cdots<code>\cdots</code>两种形式。他们有各自合适的用途：<br>例如：  </p>
 <figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span>a<span class="built_in">_</span>1,a<span class="built_in">_</span>2,<span class="keyword">\dots</span>,a<span class="built_in">_</span>n<span class="built_in">$</span>  </span><br><span class="line"><span class="built_in">$</span>a<span class="built_in">_</span>1,a<span class="built_in">_</span>2,<span class="keyword">\cdots</span>,a<span class="built_in">_</span>n<span class="built_in">$</span>  </span><br></pre></td></tr></table></figure>
 <p>效果如下：<br>$a_1,a_2,\dots,a_n$<br>$a_1,a_2,\cdots,a_n$<br><code>\ldost</code>和<code>\dots</code>是完全等效的，它们既能用在公式中，也用在文本里作为省略号。<br>除此之外，在矩阵中可能会用到竖排的 $\vdots$ <code>\vdots</code> 和斜排的 $\ddots$ <code>\ddots</code>。</p>
-<h3 id="0-2-8-关系符号"><a href="#0-2-8-关系符号" class="headerlink" title="0.2.8 关系符号"></a>0.2.8 关系符号</h3><p>LaTex常见的关系符号除了可以直接输入的 $&#x3D;$，$&gt;$，$&lt;$，其他符号用命令输入，常用的有不等于： $\ne$ <code>\ne</code>，大于等于号： $\ge$ <code>\ge</code>和小于等于号： $\le$ <code>\le</code>,约等于号： $\approx$ <code>\approx</code>，等价： $\equiv$ <code>\equiv</code>，正比： $\propto$ <code>\propto</code>，相似： $\sim$ <code>\sim</code>等等。<br>LaTex还提供了自定义二元关系符的命令<code>\stackrel</code>，用于将一个符号叠加在原有的二元关系符之上：<br>例如：  </p>
+<h3 id="2-H-关系符号"><a href="#2-H-关系符号" class="headerlink" title="2.H 关系符号"></a>2.H 关系符号</h3><p>LaTex常见的关系符号除了可以直接输入的 $&#x3D;$，$&gt;$，$&lt;$，其他符号用命令输入，常用的有不等于： $\ne$ <code>\ne</code>，大于等于号： $\ge$ <code>\ge</code>和小于等于号： $\le$ <code>\le</code>,约等于号： $\approx$ <code>\approx</code>，等价： $\equiv$ <code>\equiv</code>，正比： $\propto$ <code>\propto</code>，相似： $\sim$ <code>\sim</code>等等。<br>LaTex还提供了自定义二元关系符的命令<code>\stackrel</code>，用于将一个符号叠加在原有的二元关系符之上：<br>例如：  </p>
 <figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br><span class="line">f<span class="built_in">_</span>n(x) <span class="keyword">\stackrel</span>&#123;*&#125;&#123;<span class="keyword">\approx</span>&#125; 1</span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
 <p>效果如下：<br>$$<br>f_n(x) \stackrel{*}{\approx} 1<br>$$</p>
 <!--
@@ -1181,6 +1192,30 @@ ___
     viewer_init()
 </script> 
 <!-- MathJax -->
+ <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+  });
+
+  MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+      for(i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+  });
+</script>
+
+<script src="https://cdn.staticfile.org/mathjax/2.7.7/MathJax.js"></script>
+<script src="https://cdn.staticfile.org/mathjax/2.7.7/config/TeX-AMS-MML_HTMLorMML-full.js"></script>
+<script>
+  var ayerConfig = {
+    mathjax: true,
+  };
+</script>
 
 <!-- Katex -->
 
@@ -1189,11 +1224,13 @@ ___
 <script src="/js/busuanzi-2.3.pure.min.js"></script>
  
 <!-- ClickLove -->
- 
-<script src="/js/clickLove.js"></script>
- 
+
 <!-- ClickBoom1 -->
 
+<script src="https://cdn.staticfile.org/animejs/3.2.1/anime.min.js"></script>
+
+<script src="/js/clickBoom1.js"></script>
+ 
 <!-- ClickBoom2 -->
 
 <!-- CodeCopy -->
@@ -1271,7 +1308,7 @@ ___
     
     
     <iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width="200" height="52"
-        src="//music.163.com/outchain/player?type=2&id=22707008&auto=1&height=32"></iframe>
+        src="//music.163.com/outchain/player?type=2&id=427606780&auto=1&height=32"></iframe>
 </div>
 
 <style>
