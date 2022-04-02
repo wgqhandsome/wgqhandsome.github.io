@@ -1,159 +1,58 @@
-<!DOCTYPE html>
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>一个旋律优美的曲子</title>
+    <url>/2022/04/01/%E4%B8%80%E4%B8%AA%E6%97%8B%E5%BE%8B%E4%BC%98%E7%BE%8E%E7%9A%84%E6%9B%B2%E5%AD%90/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>朋友推荐的一首旋律优美的曲子</p>
 
-
-<html lang="en">
-  
-
-    <head>
-      <meta charset="utf-8" />
-        
-      <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1, maximum-scale=1"
-      />
-      <title>LaTex公式的简单用法 |  你好哇，朋友</title>
-  <meta name="generator" content="hexo-theme-ayer">
-      
-      <link rel="shortcut icon" href="/wgqico.ico" />
-       
-<link rel="stylesheet" href="/dist/main.css">
-
-      
-<link rel="stylesheet" href="/css/fonts/remixicon.css">
-
-      
-<link rel="stylesheet" href="/css/custom.css">
- 
-      <script src="https://cdn.staticfile.org/pace/1.2.4/pace.min.js"></script>
-       
- 
-
-      <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-bulma@5.0.1/bulma.min.css"
-      />
-      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.js"></script>
-
-      <!-- mermaid -->
-      
-      <style>
-        .swal2-styled.swal2-confirm {
-          font-size: 1.6rem;
-        }
-      </style>
-    <link rel="alternate" href="/atom.xml" title="你好哇，朋友" type="application/atom+xml">
-</head>
-  </html>
-</html>
-
-
-<body>
-  <div id="app">
-    
-      <canvas class="fireworks"></canvas>
-      <style>
-        .fireworks {
-          position: fixed;
-          left: 0;
-          top: 0;
-          z-index: 99999;
-          pointer-events: none;
-        }
-      </style>
-      
-      
-    <main class="content on">
-      <section class="outer">
-  <article
-  id="post-LaTex公式的简单用法"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  LaTex公式的简单用法
-</h1>
- 
-
-      
-    </header>
-     
-    <div class="article-meta">
-      <a href="/2022/03/13/LaTex%E5%85%AC%E5%BC%8F%E7%9A%84%E7%AE%80%E5%8D%95%E7%94%A8%E6%B3%95/" class="article-date">
-  <time datetime="2022-03-12T16:00:00.000Z" itemprop="datePublished">2022-03-13</time>
-</a>   
-<div class="word_count">
-    <span class="post-time">
-        <span class="post-meta-item-icon">
-            <i class="ri-quill-pen-line"></i>
-            <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">1.1k</span>
-        </span>
-    </span>
-
-    <span class="post-time">
-        &nbsp; | &nbsp;
-        <span class="post-meta-item-icon">
-            <i class="ri-book-open-line"></i>
-            <span class="post-meta-item-text"> Reading time≈</span>
-            <span class="post-count">4 min</span>
-        </span>
-    </span>
-</div>
- 
-    </div>
-      
-    <div class="tocbot"></div>
-
-
-
-
-  
-    <div class="article-entry" itemprop="articleBody">
-       
-  <p>LATEX 是一个文档准备系统 (Document Preparing System)，它非常适用于生成高印刷质量的科技类和数学类文档。它也能够生成所有其他种类的文档，小到简单的信件，大到完整的书籍。LATEX 使用 TEX 作为它的排版引擎。本文主要介绍LATEX的数学公式语法部分。<br>关于LaTex 常用的语法更加详尽的介绍参见：<br><a target="_blank" rel="noopener" href="http://texdoc.net/texmf-dist/doc/latex/lshort-chinese/lshort-zh-cn.pdf">一份不太简短的 LATEX 2ε 介绍</a></p>
+<iframe src="//player.bilibili.com/player.html?aid=40755951&bvid=BV1it411H75q&
+as_wide=1&high_quality=1&danmaku=0&cid=71582607&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+]]></content>
+      <tags>
+        <tag>Todo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>LaTex公式的简单用法</title>
+    <url>/2022/03/13/LaTex%E5%85%AC%E5%BC%8F%E7%9A%84%E7%AE%80%E5%8D%95%E7%94%A8%E6%B3%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>LATEX 是一个文档准备系统 (Document Preparing System)，它非常适用于生成高印刷质量的科技类和数学类文档。它也能够生成所有其他种类的文档，小到简单的信件，大到完整的书籍。LATEX 使用 TEX 作为它的排版引擎。本文主要介绍LATEX的数学公式语法部分。<br>关于LaTex 常用的语法更加详尽的介绍参见：<br><a href="http://texdoc.net/texmf-dist/doc/latex/lshort-chinese/lshort-zh-cn.pdf">一份不太简短的 LATEX 2ε 介绍</a></p>
 <h2 id="1-公式显示位置"><a href="#1-公式显示位置" class="headerlink" title="1 公式显示位置"></a>1 公式显示位置</h2><h3 id="1-A-行内公式"><a href="#1-A-行内公式" class="headerlink" title="1.A 行内公式"></a>1.A 行内公式</h3><p>在公式两边各自加上一个<code>$</code>符号即是行内公式，代码如下：  </p>
-<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">这是行内公式：<span class="built_in">$</span>a<span class="built_in">^</span>2 + b<span class="built_in">^</span>2 = c<span class="built_in">^</span>2<span class="built_in">$</span> </span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line">这是行内公式：<span class="built_in">$</span>a<span class="built_in">^</span>2 + b<span class="built_in">^</span>2 = c<span class="built_in">^</span>2<span class="built_in">$</span> </span><br></pre></td></tr></table></figure>
 <p>效果如下：<br>这是行内公式：$a^2 + b^2 &#x3D; c^2$ 。</p>
 <h3 id="1-B-行间公式"><a href="#1-B-行间公式" class="headerlink" title="1.B 行间公式"></a>1.B 行间公式</h3><p>在公式两边各自加上2个<code>$</code>符号，或使用<code>\[</code>和<code>\]</code>，即是行间公式，源码如下：  </p>
-<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">以下为行间公式：</span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br><span class="line">a<span class="built_in">^</span>2 + b<span class="built_in">^</span>2 = c<span class="built_in">^</span>2</span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line">以下为行间公式：</span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br><span class="line">a<span class="built_in">^</span>2 + b<span class="built_in">^</span>2 = c<span class="built_in">^</span>2</span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
 <p>或者</p>
-<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">以下为行间公式：</span><br><span class="line"><span class="keyword">\[</span></span><br><span class="line">a<span class="built_in">^</span>2 + b<span class="built_in">^</span>2 = c<span class="built_in">^</span>2</span><br><span class="line"><span class="keyword">\]</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line">以下为行间公式：</span><br><span class="line"><span class="keyword">\[</span></span><br><span class="line">a<span class="built_in">^</span>2 + b<span class="built_in">^</span>2 = c<span class="built_in">^</span>2</span><br><span class="line"><span class="keyword">\]</span></span><br></pre></td></tr></table></figure>
 <p>效果如下：<br>以下为行间公式：</p>
 <p>$$<br>a^2 + b^2 &#x3D; c^2<br>$$</p>
 <h2 id="2-数学符号"><a href="#2-数学符号" class="headerlink" title="2 数学符号"></a>2 数学符号</h2><h3 id="2-A-上下标"><a href="#2-A-上下标" class="headerlink" title="2.A 上下标"></a>2.A 上下标</h3><p>LaTex一般使用<code>^</code>和<code>_</code>表明上下标。注意如果上下标只对其后面的一个字符起作用，如果上下标的内容超过一个字符，则需要用花括号<code>&#123;&#125;</code>包裹，否则上下标只对后面的一个符号起作用。<br>例如：  </p>
-<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span>p<span class="built_in">^</span>3<span class="built_in">_</span>&#123;ij&#125; <span class="keyword">\qquad</span> <span class="keyword">\sum</span><span class="built_in">_</span>&#123;K=1&#125;<span class="built_in">^</span>3 k a<span class="built_in">^</span>x+y <span class="keyword">\qquad</span>  <span class="keyword">\neq</span> a<span class="built_in">^</span>&#123;x+y&#125;<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span>p<span class="built_in">^</span>3<span class="built_in">_</span>&#123;ij&#125; <span class="keyword">\qquad</span> <span class="keyword">\sum</span><span class="built_in">_</span>&#123;K=1&#125;<span class="built_in">^</span>3 k a<span class="built_in">^</span>x+y <span class="keyword">\qquad</span>  <span class="keyword">\neq</span> a<span class="built_in">^</span>&#123;x+y&#125;<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
 <p>效果如下：<br>$p^3_{ij} \qquad \sum_{K&#x3D;1}^3 k a^x+y \qquad  \neq a^{x+y}$</p>
 <h3 id="2-B-导数符号"><a href="#2-B-导数符号" class="headerlink" title="2.B 导数符号"></a>2.B 导数符号</h3><p>导数符号<code>&#39;</code>是一个特殊的上标，可以<strong>适当连用表示多阶导数</strong>，也可以在其后连用上标：  </p>
-<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span>f(x)=x<span class="built_in">^</span>2 <span class="keyword">\quad</span> f’(x)=2x <span class="keyword">\quad</span> f’’(x)=4<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span>f(x)=x<span class="built_in">^</span>2 <span class="keyword">\quad</span> f’(x)=2x <span class="keyword">\quad</span> f’’(x)=4<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
 
 <p>效果如下：<br>$f(x)&#x3D;x^2 \quad f’(x)&#x3D;2x \quad f’’(x)&#x3D;4$</p>
 <h3 id="2-C-偏导符号"><a href="#2-C-偏导符号" class="headerlink" title="2.C 偏导符号"></a>2.C 偏导符号</h3><p>偏导数符号为$\partial$，用 <code>\partial</code> 表示。<br>例如：  </p>
-<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\left</span>.<span class="keyword">\frac</span>&#123;<span class="keyword">\partial</span> f(x,y)&#125;&#123;<span class="keyword">\partial</span> x&#125;<span class="keyword">\right</span>|<span class="built_in">_</span>&#123;x=0&#125;<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\left</span>.<span class="keyword">\frac</span>&#123;<span class="keyword">\partial</span> f(x,y)&#125;&#123;<span class="keyword">\partial</span> x&#125;<span class="keyword">\right</span>|<span class="built_in">_</span>&#123;x=0&#125;<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
 <p>效果如下：<br>$\left.\frac{\partial f(x,y)}{\partial x}\right|_{x&#x3D;0}$</p>
 <h3 id="2-D-分式"><a href="#2-D-分式" class="headerlink" title="2.D 分式"></a>2.D 分式</h3><p>1.如果是简单的分式，可以写成斜分式的形式,如 <code>3/8</code> ，在latex中分式一般使用<code>\frac&#123;分子&#125;&#123;分母&#125;</code>来书写。不过这种分式的大小在行间公式是正常显示大小，而<strong>在行内被极度压缩了</strong>。amsmath提供了方便的命令<code>\dfrac&#123;分子&#125;&#123;分母&#125;</code>和<code>\tfrac&#123;分子&#125;&#123;分母&#125;</code>,令用户能够在行内使用正常大小的行内公式。<br>例如：  </p>
-<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">斜分式：<span class="built_in">$</span>3/8<span class="built_in">$</span>，压缩分式：<span class="built_in">$</span><span class="keyword">\frac</span>&#123;3&#125;&#123;8&#125;<span class="built_in">$</span>，显示正常大小：<span class="built_in">$</span><span class="keyword">\dfrac</span>&#123;3&#125;&#123;8&#125;<span class="built_in">$</span>。</span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line">斜分式：<span class="built_in">$</span>3/8<span class="built_in">$</span>，压缩分式：<span class="built_in">$</span><span class="keyword">\frac</span>&#123;3&#125;&#123;8&#125;<span class="built_in">$</span>，显示正常大小：<span class="built_in">$</span><span class="keyword">\dfrac</span>&#123;3&#125;&#123;8&#125;<span class="built_in">$</span>。</span><br></pre></td></tr></table></figure>
 
 <p>效果如下：<br>斜分式：$3&#x2F;8$，压缩分式：$\frac{3}{8}$，显示正常大小：$\dfrac{3}{8}$。</p>
 <p>2.特殊的分式形式，如二项式结构，由amsmath宏包的<code>\binom</code>命令生成：  </p>
-<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br><span class="line"><span class="keyword">\binom</span>&#123;n&#125;&#123;k&#125;=<span class="keyword">\binom</span>&#123;n-1&#125;&#123;k&#125;+<span class="keyword">\binom</span>&#123;n-1&#125;&#123;k-1&#125;</span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br><span class="line"><span class="keyword">\binom</span>&#123;n&#125;&#123;k&#125;=<span class="keyword">\binom</span>&#123;n-1&#125;&#123;k&#125;+<span class="keyword">\binom</span>&#123;n-1&#125;&#123;k-1&#125;</span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <p>效果如下：<br>$$<br>\binom{n}{k}&#x3D;\binom{n-1}{k}+\binom{n-1}{k-1}<br>$$</p>
 <h3 id="2-E-根式"><a href="#2-E-根式" class="headerlink" title="2.E 根式"></a>2.E 根式</h3><p>一般的根式使用<code>\sqrt&#123;…&#125;</code>表示，表示n次根式写成<code>\sqrt[n]&#123;…&#125;</code>:  </p>
-<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\sqrt</span>&#123;x&#125; <span class="keyword">\Leftrightarrow</span> x<span class="built_in">^</span>&#123;1/2&#125; <span class="keyword">\quad</span> <span class="keyword">\sqrt</span>[3]&#123;2&#125; <span class="keyword">\quad</span> <span class="keyword">\sqrt</span>&#123;x<span class="built_in">^</span>&#123;2&#125;+<span class="keyword">\sqrt</span>&#123;y&#125;&#125;<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\sqrt</span>&#123;x&#125; <span class="keyword">\Leftrightarrow</span> x<span class="built_in">^</span>&#123;1/2&#125; <span class="keyword">\quad</span> <span class="keyword">\sqrt</span>[3]&#123;2&#125; <span class="keyword">\quad</span> <span class="keyword">\sqrt</span>&#123;x<span class="built_in">^</span>&#123;2&#125;+<span class="keyword">\sqrt</span>&#123;y&#125;&#125;<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
 <p>效果如下：<br>$\sqrt{x} \Leftrightarrow x^{1&#x2F;2} \quad \sqrt[3]{2} \quad \sqrt{x^{2}+\sqrt{y}}$</p>
 <h3 id="2-F-无穷大符号"><a href="#2-F-无穷大符号" class="headerlink" title="2.F 无穷大符号"></a>2.F 无穷大符号</h3><p>无穷大的英语缩写：infinity</p>
-<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\infty</span><span class="built_in">$</span> </span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\infty</span><span class="built_in">$</span> </span><br></pre></td></tr></table></figure>
 <p>即：$\infty$  </p>
 <h3 id="2-G-省略号"><a href="#2-G-省略号" class="headerlink" title="2.G 省略号"></a>2.G 省略号</h3><p>省略号有…<code>\dots</code>和cdots<code>\cdots</code>两种形式。他们有各自合适的用途：<br>例如：  </p>
-<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span>a<span class="built_in">_</span>1,a<span class="built_in">_</span>2,<span class="keyword">\dots</span>,a<span class="built_in">_</span>n<span class="built_in">$</span>  </span><br><span class="line"><span class="built_in">$</span>a<span class="built_in">_</span>1,a<span class="built_in">_</span>2,<span class="keyword">\cdots</span>,a<span class="built_in">_</span>n<span class="built_in">$</span>  </span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span>a<span class="built_in">_</span>1,a<span class="built_in">_</span>2,<span class="keyword">\dots</span>,a<span class="built_in">_</span>n<span class="built_in">$</span>  </span><br><span class="line"><span class="built_in">$</span>a<span class="built_in">_</span>1,a<span class="built_in">_</span>2,<span class="keyword">\cdots</span>,a<span class="built_in">_</span>n<span class="built_in">$</span>  </span><br></pre></td></tr></table></figure>
 <p>效果如下：<br>$a_1,a_2,\dots,a_n$<br>$a_1,a_2,\cdots,a_n$<br><code>\ldost</code>和<code>\dots</code>是完全等效的，它们既能用在公式中，也用在文本里作为省略号。<br>除此之外，在矩阵中可能会用到竖排的 $\vdots$ <code>\vdots</code> 和斜排的 $\ddots$ <code>\ddots</code>。</p>
 <h3 id="2-H-关系符号"><a href="#2-H-关系符号" class="headerlink" title="2.H 关系符号"></a>2.H 关系符号</h3><p>LaTex常见的关系符号除了可以直接输入的 $&#x3D;$，$&gt;$，$&lt;$，其他符号用命令输入，常用的有不等于： $\ne$ <code>\ne</code>，大于等于号： $\ge$ <code>\ge</code>和小于等于号： $\le$ <code>\le</code>,约等于号： $\approx$ <code>\approx</code>，等价： $\equiv$ <code>\equiv</code>，正比： $\propto$ <code>\propto</code>，相似： $\sim$ <code>\sim</code>等等。<br>LaTex还提供了自定义二元关系符的命令<code>\stackrel</code>，用于将一个符号叠加在原有的二元关系符之上：<br>例如：  </p>
-<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br><span class="line">f<span class="built_in">_</span>n(x) <span class="keyword">\stackrel</span>&#123;*&#125;&#123;<span class="keyword">\approx</span>&#125; 1</span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br><span class="line">f<span class="built_in">_</span>n(x) <span class="keyword">\stackrel</span>&#123;*&#125;&#123;<span class="keyword">\approx</span>&#125; 1</span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
 <p>效果如下：<br>$$<br>f_n(x) \stackrel{*}{\approx} 1<br>$$</p>
 <!--
 整段整段的不可见内容
@@ -821,493 +720,39 @@ LaTeX希腊字母符号代码就是**斜杠$+$其英文名称**，如 `\alpha`�
 
 ___
 
---> 
-      <!-- reward -->
-      
-    </div>
-    
+-->]]></content>
+      <tags>
+        <tag>Todo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>就从这里开始吧</title>
+    <url>/2022/03/31/%E5%B0%B1%E4%BB%8E%E8%BF%99%E9%87%8C%E5%BC%80%E5%A7%8B%E5%90%A7/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>你好朋友<br>欢迎来到我的地盘</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>什么是真正的强者？</title>
+    <url>/2022/04/01/%E4%BB%80%E4%B9%88%E6%98%AF%E7%9C%9F%E6%AD%A3%E7%9A%84%E5%BC%BA%E8%80%85/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>什么是真正的强者？首先应该从想要做到开始。</p>
 
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-<div class="share-btn">
-      <span class="share-sns share-outer">
-        <i class="ri-share-forward-line"></i>
-        分享
-      </span>
-      <div class="share-wrap">
-        <i class="arrow"></i>
-        <div class="share-icons">
-          
-          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
-            <i class="ri-weibo-fill"></i>
-          </a>
-          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
-            <i class="ri-wechat-fill"></i>
-          </a>
-          <a class="qq share-sns" href="javascript:;" data-type="qq">
-            <i class="ri-qq-fill"></i>
-          </a>
-          <a class="douban share-sns" href="javascript:;" data-type="douban">
-            <i class="ri-douban-line"></i>
-          </a>
-          <!-- <a class="qzone share-sns" href="javascript:;" data-type="qzone">
-            <i class="icon icon-qzone"></i>
-          </a> -->
-          
-          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
-            <i class="ri-facebook-circle-fill"></i>
-          </a>
-          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
-            <i class="ri-twitter-fill"></i>
-          </a>
-          <a class="google share-sns" href="javascript:;" data-type="google">
-            <i class="ri-google-fill"></i>
-          </a>
-        </div>
-      </div>
-</div>
+<iframe src="//player.bilibili.com/player.html?aid=507153263&bvid=BV1Jg411P7yg&as_wide=1&high_quality=1&danmaku=0cid=456705109&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-<div class="wx-share-modal">
-    <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
-    <p>扫一扫，分享到微信</p>
-    <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://wgqhandsome.github.io/2022/03/13/LaTex%E5%85%AC%E5%BC%8F%E7%9A%84%E7%AE%80%E5%8D%95%E7%94%A8%E6%B3%95/" alt="微信分享二维码">
-    </div>
-</div>
+]]></content>
+      <tags>
+        <tag>Todo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我心中的天下第一，盖聂。</title>
+    <url>/2022/04/01/%E6%88%91%E5%BF%83%E4%B8%AD%E7%9A%84%E5%A4%A9%E4%B8%8B%E7%AC%AC%E4%B8%80%EF%BC%8C%E7%9B%96%E8%81%82%E3%80%82/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>我心中的天下第一，盖聂。</p>
 
-<div id="share-mask"></div>  
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Todo/" rel="tag">Todo</a></li></ul>
-
-    </footer>
-  </div>
-
-   
-  <nav class="article-nav">
-    
-      <a href="/2022/03/31/%E5%B0%B1%E4%BB%8E%E8%BF%99%E9%87%8C%E5%BC%80%E5%A7%8B%E5%90%A7/" class="article-nav-link">
-        <strong class="article-nav-caption">上一篇</strong>
-        <div class="article-nav-title">
-          
-            就从这里开始吧
-          
-        </div>
-      </a>
-    
-    
-  </nav>
-
-  
-   
-    
-    <script src="https://cdn.staticfile.org/twikoo/1.4.18/twikoo.all.min.js"></script>
-    <div id="twikoo" class="twikoo"></div>
-    <script>
-        twikoo.init({
-            envId: ""
-        })
-    </script>
- 
-</article>
-
-</section>
-      <footer class="footer">
-  <div class="outer">
-    <ul>
-      <li>
-        Copyrights &copy;
-        2019-2022
-        <i class="ri-heart-fill heart_icon"></i> wgq
-      </li>
-    </ul>
-    <ul>
-      <li>
-        
-      </li>
-    </ul>
-    <ul>
-      <li>
-        
-        
-        <span>
-  <span><i class="ri-user-3-fill"></i>Visitors:<span id="busuanzi_value_site_uv"></span></span>
-  <span class="division">|</span>
-  <span><i class="ri-eye-fill"></i>Views:<span id="busuanzi_value_page_pv"></span></span>
-</span>
-        
-      </li>
-    </ul>
-    <ul>
-      
-    </ul>
-    <ul>
-      
-    </ul>
-    <ul>
-      <li>
-        <!-- cnzz统计 -->
-        
-        <script type="text/javascript" src='https://s9.cnzz.com/z_stat.php?id=1278069914&amp;web_id=1278069914'></script>
-        
-      </li>
-    </ul>
-  </div>
-</footer>    
-    </main>
-    <div class="float_btns">
-      <div class="totop" id="totop">
-  <i class="ri-arrow-up-line"></i>
-</div>
-
-<div class="todark" id="todark">
-  <i class="ri-moon-line"></i>
-</div>
-
-    </div>
-    <aside class="sidebar on">
-      <button class="navbar-toggle"></button>
-<nav class="navbar">
-  
-  <div class="logo">
-    <a href="/"><img src="/images/wgqSvg.svg" alt="你好哇，朋友"></a>
-  </div>
-  
-  <ul class="nav nav-main">
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/">主页</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/archives">归档</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/categories">分类</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="https://wgqhandsome.github.io/">生活</a>
-    </li>
-    
-  </ul>
-</nav>
-<nav class="navbar navbar-bottom">
-  <ul class="nav">
-    <li class="nav-item">
-      
-      <a class="nav-item-link nav-item-search"  title="Search">
-        <i class="ri-search-line"></i>
-      </a>
-      
-      
-      <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
-        <i class="ri-rss-line"></i>
-      </a>
-      
-    </li>
-  </ul>
-</nav>
-<div class="search-form-wrap">
-  <div class="local-search local-search-plugin">
-  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
-  <div id="local-search-result" class="local-search-result"></div>
-</div>
-</div>
-    </aside>
-    <div id="mask"></div>
-
-<!-- #reward -->
-<div id="reward">
-  <span class="close"><i class="ri-close-line"></i></span>
-  <p class="reward-p"><i class="ri-cup-line"></i>请我喝杯咖啡吧~</p>
-  <div class="reward-box">
-    
-    <div class="reward-item">
-      <img class="reward-img" src="/images/alipay.jpg">
-      <span class="reward-type">支付宝</span>
-    </div>
-    
-    
-    <div class="reward-item">
-      <img class="reward-img" src="/images/wechat.jpg">
-      <span class="reward-type">微信</span>
-    </div>
-    
-  </div>
-</div>
-    
-<script src="/js/jquery-3.6.0.min.js"></script>
- 
-<script src="/js/lazyload.min.js"></script>
-
-<!-- Tocbot -->
- 
-<script src="/js/tocbot.min.js"></script>
-
-<script>
-  tocbot.init({
-    tocSelector: ".tocbot",
-    contentSelector: ".article-entry",
-    headingSelector: "h1, h2, h3, h4, h5, h6",
-    hasInnerContainers: true,
-    scrollSmooth: true,
-    scrollContainer: "main",
-    positionFixedSelector: ".tocbot",
-    positionFixedClass: "is-position-fixed",
-    fixedSidebarOffset: "auto",
-  });
-</script>
-
-<script src="https://cdn.staticfile.org/jquery-modal/0.9.2/jquery.modal.min.js"></script>
-<link
-  rel="stylesheet"
-  href="https://cdn.staticfile.org/jquery-modal/0.9.2/jquery.modal.min.css"
-/>
-<script src="https://cdn.staticfile.org/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js"></script>
-
-<script src="/dist/main.js"></script>
-
-<!-- ImageViewer -->
- <!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-    <!-- Background of PhotoSwipe. 
-         It's a separate element as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-
-        <!-- Container that holds slides. 
-            PhotoSwipe keeps only 3 of them in the DOM to save memory.
-            Don't modify these 3 pswp__item elements, data is added later on. -->
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
-
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
-
-            <div class="pswp__top-bar">
-
-                <!--  Controls are self-explanatory. Order can be changed. -->
-
-                <div class="pswp__counter"></div>
-
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
-
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                        <div class="pswp__preloader__cut">
-                            <div class="pswp__preloader__donut"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div>
-            </div>
-
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
-
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
-
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-<link rel="stylesheet" href="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe.min.css">
-<link rel="stylesheet" href="https://cdn.staticfile.org/photoswipe/4.1.3/default-skin/default-skin.min.css">
-<script src="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe.min.js"></script>
-<script src="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe-ui-default.min.js"></script>
-
-<script>
-    function viewer_init() {
-        let pswpElement = document.querySelectorAll('.pswp')[0];
-        let $imgArr = document.querySelectorAll(('.article-entry img:not(.reward-img)'))
-
-        $imgArr.forEach(($em, i) => {
-            $em.onclick = () => {
-                // slider展开状态
-                // todo: 这样不好，后面改成状态
-                if (document.querySelector('.left-col.show')) return
-                let items = []
-                $imgArr.forEach(($em2, i2) => {
-                    let img = $em2.getAttribute('data-idx', i2)
-                    let src = $em2.getAttribute('data-target') || $em2.getAttribute('src')
-                    let title = $em2.getAttribute('alt')
-                    // 获得原图尺寸
-                    const image = new Image()
-                    image.src = src
-                    items.push({
-                        src: src,
-                        w: image.width || $em2.width,
-                        h: image.height || $em2.height,
-                        title: title
-                    })
-                })
-                var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, {
-                    index: parseInt(i)
-                });
-                gallery.init()
-            }
-        })
-    }
-    viewer_init()
-</script> 
-<!-- MathJax -->
- <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-      tex2jax: {
-          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-          processEscapes: true,
-          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-      }
-  });
-
-  MathJax.Hub.Queue(function() {
-      var all = MathJax.Hub.getAllJax(), i;
-      for(i=0; i < all.length; i += 1) {
-          all[i].SourceElement().parentNode.className += ' has-jax';
-      }
-  });
-</script>
-
-<script src="https://cdn.staticfile.org/mathjax/2.7.7/MathJax.js"></script>
-<script src="https://cdn.staticfile.org/mathjax/2.7.7/config/TeX-AMS-MML_HTMLorMML-full.js"></script>
-<script>
-  var ayerConfig = {
-    mathjax: true,
-  };
-</script>
-
-<!-- Katex -->
-
-<!-- busuanzi  -->
- 
-<script src="/js/busuanzi-2.3.pure.min.js"></script>
- 
-<!-- ClickLove -->
-
-<!-- ClickBoom1 -->
-
-<script src="https://cdn.staticfile.org/animejs/3.2.1/anime.min.js"></script>
-
-<script src="/js/clickBoom1.js"></script>
- 
-<!-- ClickBoom2 -->
-
-<!-- CodeCopy -->
- 
-<link rel="stylesheet" href="/css/clipboard.css">
- <script src="https://cdn.staticfile.org/clipboard.js/2.0.10/clipboard.min.js"></script>
-<script>
-  function wait(callback, seconds) {
-    var timelag = null;
-    timelag = window.setTimeout(callback, seconds);
-  }
-  !function (e, t, a) {
-    var initCopyCode = function(){
-      var copyHtml = '';
-      copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
-      copyHtml += '<i class="ri-file-copy-2-line"></i><span>COPY</span>';
-      copyHtml += '</button>';
-      $(".highlight .code pre").before(copyHtml);
-      $(".article pre code").before(copyHtml);
-      var clipboard = new ClipboardJS('.btn-copy', {
-        target: function(trigger) {
-          return trigger.nextElementSibling;
-        }
-      });
-      clipboard.on('success', function(e) {
-        let $btn = $(e.trigger);
-        $btn.addClass('copied');
-        let $icon = $($btn.find('i'));
-        $icon.removeClass('ri-file-copy-2-line');
-        $icon.addClass('ri-checkbox-circle-line');
-        let $span = $($btn.find('span'));
-        $span[0].innerText = 'COPIED';
-        
-        wait(function () { // 等待两秒钟后恢复
-          $icon.removeClass('ri-checkbox-circle-line');
-          $icon.addClass('ri-file-copy-2-line');
-          $span[0].innerText = 'COPY';
-        }, 2000);
-      });
-      clipboard.on('error', function(e) {
-        e.clearSelection();
-        let $btn = $(e.trigger);
-        $btn.addClass('copy-failed');
-        let $icon = $($btn.find('i'));
-        $icon.removeClass('ri-file-copy-2-line');
-        $icon.addClass('ri-time-line');
-        let $span = $($btn.find('span'));
-        $span[0].innerText = 'COPY FAILED';
-        
-        wait(function () { // 等待两秒钟后恢复
-          $icon.removeClass('ri-time-line');
-          $icon.addClass('ri-file-copy-2-line');
-          $span[0].innerText = 'COPY';
-        }, 2000);
-      });
-    }
-    initCopyCode();
-  }(window, document);
-</script>
- 
-<!-- CanvasBackground -->
- 
-<script src="/js/dz.js"></script>
- 
-<script>
-  if (window.mermaid) {
-    mermaid.initialize({ theme: "forest" });
-  }
-</script>
-
-
-    
-    <div id="music">
-    
-    
-    
-    <iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width="200" height="52"
-        src="//music.163.com/outchain/player?type=2&id=427606780&auto=1&height=32"></iframe>
-</div>
-
-<style>
-    #music {
-        position: fixed;
-        right: 15px;
-        bottom: 0;
-        z-index: 998;
-    }
-</style>
-    
-    
-
-  </div>
-</body>
-
-</html>
+<iframe src="//player.bilibili.com/player.html?aid=934370399&bvid=BV1oM4y1A7Lg&
+as_wide=1&high_quality=1&danmaku=0&cid=446851737&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+]]></content>
+      <tags>
+        <tag>Todo</tag>
+      </tags>
+  </entry>
+</search>
