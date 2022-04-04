@@ -88,7 +88,7 @@
   <time datetime="2022-04-02T16:00:00.000Z" itemprop="datePublished">2022-04-03</time>
 </a> 
   <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%88%A9%E5%99%A8%E5%99%A8/">利器器</a> / <a class="article-category-link" href="/categories/%E5%88%A9%E5%99%A8%E5%99%A8/LaTex/">LaTex</a>
+    <a class="article-category-link" href="/categories/%E5%88%A9%E5%85%B6%E5%99%A8/">利其器</a> / <a class="article-category-link" href="/categories/%E5%88%A9%E5%85%B6%E5%99%A8/LaTex/">LaTex</a>
   </div>
   
 <div class="word_count">
@@ -121,7 +121,7 @@
     <div class="article-entry" itemprop="articleBody">
        
   <p>本文主要介绍LaTeX的图片排版语法部分。<br>关于LaTeX 常用的语法更加详尽的介绍参见：<br><a target="_blank" rel="noopener" href="http://texdoc.net/texmf-dist/doc/latex/lshort-chinese/lshort-zh-cn.pdf">一份不太简短的 LATEX 2ε 介绍</a><br>值得注意的是 figure 环境一个浮动体环境，LaTeX 不总是浮动体放在你想要的地方，但是 LaTeX 总是保证浮动体的相对顺序，所以对图片 <code>\label</code> 和 <code>\ref</code> 的交叉引用就显得尤为重要。</p>
-<h2 id="1-插图的基本命令"><a href="#1-插图的基本命令" class="headerlink" title="1 插图的基本命令"></a>1 插图的基本命令</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">% 使用 \includegraphics 需要调用 graphicx 宏包  </span><br><span class="line">\begin&#123;figure&#125;[htbp]  </span><br><span class="line">\centering  </span><br><span class="line">\includegraphics[width=0.7\textwidth]&#123;name.png&#125;  </span><br><span class="line">\caption&#123;图片标题名称&#125;label&#123;fig-label&#125;  </span><br><span class="line">\end&#123;figure&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="1-插图的基本命令"><a href="#1-插图的基本命令" class="headerlink" title="1 插图的基本命令"></a>1 插图的基本命令</h2><figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 使用 \includegraphics 需要调用 graphicx 宏包  </span></span><br><span class="line"><span class="keyword">\begin</span>&#123;figure&#125;[htbp]  </span><br><span class="line"><span class="keyword">\centering</span>  </span><br><span class="line"><span class="keyword">\includegraphics</span>[width=0.7<span class="keyword">\textwidth</span>]&#123;name.png&#125;  </span><br><span class="line"><span class="keyword">\caption</span>&#123;图片标题名称&#125;label&#123;fig-label&#125;  </span><br><span class="line"><span class="keyword">\end</span>&#123;figure&#125;</span><br></pre></td></tr></table></figure>
 
 
 <p><code>htbp</code> 允许浮动体排版在当前位置、底部或者单独成页。table 和 figure 浮动体的默认设置为 <code>tbp</code>。<code>!hbp</code> 表示一定把图片放在当前页上，或放在页面底部，或放在一专门页面,不管页面是否美观。</p>
@@ -238,10 +238,19 @@ ___
    
   <nav class="article-nav">
     
+      <a href="/2022/04/04/LaTeX%E8%A1%A8%E6%A0%BC%E7%9A%84%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D/" class="article-nav-link">
+        <strong class="article-nav-caption">上一篇</strong>
+        <div class="article-nav-title">
+          
+            LaTeX表格的简单介绍
+          
+        </div>
+      </a>
     
-      <a href="/2022/04/01/%E4%B8%80%E4%B8%AA%E6%97%8B%E5%BE%8B%E4%BC%98%E7%BE%8E%E7%9A%84%E6%9B%B2%E5%AD%90/" class="article-nav-link">
+    
+      <a href="/2022/03/13/LaTeX%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E7%9A%84%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">一个旋律优美的曲子</div>
+        <div class="article-nav-title">LaTeX数学公式的简单介绍</div>
       </a>
     
   </nav>

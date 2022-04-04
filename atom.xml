@@ -6,7 +6,7 @@
   <link href="https://wgqhandsome.github.io/atom.xml" rel="self"/>
   
   <link href="https://wgqhandsome.github.io/"/>
-  <updated>2022-04-02T16:00:00.000Z</updated>
+  <updated>2022-04-03T16:00:00.000Z</updated>
   <id>https://wgqhandsome.github.io/</id>
   
   <author>
@@ -17,13 +17,63 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>来都来了，听几首歌再走吧</title>
+    <link href="https://wgqhandsome.github.io/2022/04/04/%E6%9D%A5%E9%83%BD%E6%9D%A5%E4%BA%86%EF%BC%8C%E5%90%AC%E5%87%A0%E9%A6%96%E6%AD%8C%E5%86%8D%E8%B5%B0%E5%90%A7/"/>
+    <id>https://wgqhandsome.github.io/2022/04/04/%E6%9D%A5%E9%83%BD%E6%9D%A5%E4%BA%86%EF%BC%8C%E5%90%AC%E5%87%A0%E9%A6%96%E6%AD%8C%E5%86%8D%E8%B5%B0%E5%90%A7/</id>
+    <published>2022-04-03T16:00:00.000Z</published>
+    <updated>2022-04-03T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>来都来了，听几首歌再走吧。</p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=2005536200&auto=1&height=430"></iframe>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="生活" scheme="https://wgqhandsome.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="Todo" scheme="https://wgqhandsome.github.io/tags/Todo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>LaTeX表格的简单介绍</title>
+    <link href="https://wgqhandsome.github.io/2022/04/04/LaTeX%E8%A1%A8%E6%A0%BC%E7%9A%84%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D/"/>
+    <id>https://wgqhandsome.github.io/2022/04/04/LaTeX%E8%A1%A8%E6%A0%BC%E7%9A%84%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D/</id>
+    <published>2022-04-03T16:00:00.000Z</published>
+    <updated>2022-04-03T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>本文主要介绍LaTex的表格语法部分。<br>关于LaTex 常用的语法更加详尽的介绍参见：<br><a href="http://texdoc.net/texmf-dist/doc/latex/lshort-chinese/lshort-zh-cn.pdf">一份不太简短的 LATEX 2ε 介绍</a></p><h2 id="1-三线表"><a href="#1-三线表" class="headerlink" title="1 三线表"></a>1 三线表</h2><p>三线表以其形式简洁、功能分明、阅读方便而在论文中被推荐使用。三线表通常只有3条线，即顶线、底线和栏目线。其中顶线和底线为粗线，栏目线为细线。<strong>当然，三线表并不一定只有3条线，必要时可加辅助线。</strong></p><p>在LaTeX中，插入三线表需要使用到<strong>booktabs宏包</strong>，因为三线表通常会使用到粗细不同的表格线。</p><figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">\usepackage</span>&#123;booktabs&#125;    <span class="comment">%导言区</span></span><br></pre></td></tr></table></figure><h3 id="1-A-关于booktabs宏包常用的几个表线命令："><a href="#1-A-关于booktabs宏包常用的几个表线命令：" class="headerlink" title="1.A 关于booktabs宏包常用的几个表线命令："></a>1.A 关于booktabs宏包常用的几个表线命令：</h3><ul><li>\toprule命令：表格顶部的粗线。</li><li>\midrule命令：表格中间的细分隔线。</li><li>\bottomrule命令：表格底部的粗线。</li></ul><p>举个例子</p><figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">\begin</span>&#123;table&#125;[htbp]</span><br><span class="line"> <span class="keyword">\caption</span>&#123;The title&#125; <span class="keyword">\label</span>&#123;tab-info&#125;</span><br><span class="line"><span class="keyword">\begin</span>&#123;tabular&#125;&#123;cccccc&#125;</span><br><span class="line">   <span class="keyword">\toprule</span></span><br><span class="line">   序号 <span class="built_in">&amp;</span> 姓名 <span class="built_in">&amp;</span> 性别 <span class="built_in">&amp;</span> 年龄 <span class="built_in">&amp;</span> 身高/cm <span class="built_in">&amp;</span> 体重/kg <span class="keyword">\\</span></span><br><span class="line">   <span class="keyword">\midrule</span></span><br><span class="line">   1 <span class="built_in">&amp;</span> 张三 <span class="built_in">&amp;</span> M <span class="built_in">&amp;</span> 16 <span class="built_in">&amp;</span> 163 <span class="built_in">&amp;</span> 50 <span class="keyword">\\</span></span><br><span class="line">   2 <span class="built_in">&amp;</span> 王红 <span class="built_in">&amp;</span> F <span class="built_in">&amp;</span> 15 <span class="built_in">&amp;</span> 159 <span class="built_in">&amp;</span> 47 <span class="keyword">\\</span></span><br><span class="line">   3 <span class="built_in">&amp;</span> 李二 <span class="built_in">&amp;</span> M <span class="built_in">&amp;</span> 17 <span class="built_in">&amp;</span> 165 <span class="built_in">&amp;</span> 52 <span class="keyword">\\</span></span><br><span class="line">   <span class="keyword">\bottomrule</span></span><br><span class="line"><span class="keyword">\end</span>&#123;tabular&#125;</span><br><span class="line"><span class="keyword">\end</span>&#123;table&#125;</span><br></pre></td></tr></table></figure><!--![](https://pic2.zhimg.com/v2-d8db8b5ff82ad15948d7442563983905_b.jpg)整段整段的不可见内容--><h3 id="1-B-其他"><a href="#1-B-其他" class="headerlink" title="1.B 其他"></a>1.B 其他</h3><p>待补充</p><!--那如果我们想画一条比中间线更细的线该咋办呢？别急~**booktabs宏包提供的`\cmidrule`**可以画出比中间线 更细的表线。<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">\usepackage&#123;multirow&#125;   %导言区</span><br><span class="line">\begin&#123;tabular&#125;&#123;*&#123;6&#125;&#123;c&#125;&#125;</span><br><span class="line">  \toprule</span><br><span class="line">  \multirow&#123;2&#125;*&#123;姓名&#125; &amp; \multicolumn&#123;2&#125;&#123;c&#125;&#123;水果&#125; &amp; \multicolumn&#123;2&#125;&#123;c&#125;&#123;蔬菜&#125; &amp; \\</span><br><span class="line">  \cmidrule(lr)&#123;2-3&#125;\cmidrule(lr)&#123;4-5&#125;\cmidrule(lr)&#123;6-6&#125;\morecmidrules\cmidrule(lr)&#123;6-6&#125;</span><br><span class="line">  &amp; 苹果 &amp; 橘子 &amp; 白菜 &amp; 土豆 &amp; 共计 \\</span><br><span class="line">  \midrule</span><br><span class="line">  小明 &amp; 2kg &amp; 1kg &amp; 1.5kg &amp; 2kg &amp; 6.5kg \\</span><br><span class="line">  \bottomrule</span><br><span class="line">\end&#123;tabular&#125;</span><br></pre></td></tr></table></figure><p><img src="https://pic3.zhimg.com/v2-44dbaa3d4fa6afbe66b60e1101f792a2_b.jpg"></p><h3 id="1-B-通过上面例子，可以发现很多小的知识点。"><a href="#1-B-通过上面例子，可以发现很多小的知识点。" class="headerlink" title="1.B 通过上面例子，可以发现很多小的知识点。"></a>1.B 通过上面例子，可以发现很多小的知识点。</h3><ol><li><code>*&#123;6&#125;&#123;c&#125;</code>，不知道大家还记得这个说明符嘛？ <strong>*{&lt;计数&gt;}{&lt;列格式说明&gt;} ，</strong>可以重复多次列格式说明符，作为一种简洁的写法~还是很好用哒！</li><li>因为姓名是一个跨行的表项，所以我们需要在导言区加载\multirow宏包。</li><li><strong>\cmidrule在连续使用的时候， 可以使用<code>(lr)</code>表示间距的表格线可以左右向内缩短一小段距离</strong>， 如果只向左，则可用<code>（l&#123;&lt;距离&gt;&#125;）</code>，向右，则用 <code>（r&#123;&lt;距离&gt;&#125;）</code>，<code>&lt;距离&gt;</code>可以根据自己需要来设置。</li><li>如果需要在同一位置画出双线，则需要在两组的<code>\cmidrule</code>之间加上 <code>\morecmidrules</code> 进行分隔~</li></ol><p>其中，前两条是之前分享过的插入表格中常用的命令，摘出来给大家复习一下<del>哈哈哈</del></p><h2 id="2-【makecell宏包】"><a href="#2-【makecell宏包】" class="headerlink" title="2 【makecell宏包】"></a>2 【makecell宏包】</h2><p>在三线表中，也会有穿插表格中的竖线，而用booktabs宏包会破坏表格中竖线的效果，那么，此时可以用到<strong>makecell宏包</strong>提供的<code>\Xhline&#123;&lt;线的宽度&gt;&#125;</code>和<code>\Xcline&#123;&lt;起&gt;-&lt;止&gt;&#125;&#123;&lt;线的宽度&gt;&#125;</code>，接下来举个例子~</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">\begin&#123;tabular&#125;&#123;c|cc&#125;</span><br><span class="line">\Xhline&#123;2pt&#125;</span><br><span class="line">自变量 &amp; \multicolumn&#123;2&#125;&#123;c&#125;&#123;因变量&#125; \\</span><br><span class="line">\Xcline&#123;2-3&#125;&#123;0.4pt&#125;</span><br><span class="line">半径 &amp; 周长 &amp; 面积 \\</span><br><span class="line">\Xhline&#123;1pt&#125;</span><br><span class="line">1.00 &amp; 6.28 &amp; 6.28 \\</span><br><span class="line">2.00 &amp; 12.57 &amp; 12.57 \\</span><br><span class="line">3.00 &amp; 18.85 &amp; 28.37 \\</span><br><span class="line">\Xhline&#123;2pt&#125;</span><br><span class="line">\end&#123;tabular&#125; </span><br></pre></td></tr></table></figure><p><img src="https://pic3.zhimg.com/v2-2d64de845726f417dcdab8a22dc7bbd6_b.jpg"></p><p>借用了刘海洋老师的例子，<code>\Xcline&#123;2-3&#125;&#123;0.4pt&#125;</code>，画了一条起于第二列终于第三列，宽度是0.4pt的 横线。</p><h2 id="3-【结语】"><a href="#3-【结语】" class="headerlink" title="3 【结语】"></a>3 【结语】</h2><p>今天的分享就到此结束啦！对于一些毕业论文以及科研论文，还有2022年的美赛<del>目前的三线表制作的知识足够啦</del>如果恰好可以帮到你<del>感谢你的一键三连哦</del></p><hr><p>参考书籍：刘海洋老师的《LaTeX入门》</p><p>使用平台：Slager</p><p>文章转自：<a href="https://zhuanlan.zhihu.com/p/440419387">阿九啊：LaTeX学习心得——三线表也很重要</a></p><p>–&gt;</p><h2 id="2-参考文献"><a href="#2-参考文献" class="headerlink" title="2 参考文献"></a>2 参考文献</h2><p><a href="http://texdoc.net/texmf-dist/doc/latex/lshort-chinese/lshort-zh-cn.pdf">一份不太简短的 LATEX 2ε 介绍</a>  </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="利其器，LaTex" scheme="https://wgqhandsome.github.io/categories/%E5%88%A9%E5%85%B6%E5%99%A8%EF%BC%8CLaTex/"/>
+    
+    
+    <category term="Todo" scheme="https://wgqhandsome.github.io/tags/Todo/"/>
+    
+    <category term="LaTeX" scheme="https://wgqhandsome.github.io/tags/LaTeX/"/>
+    
+  </entry>
+  
+  <entry>
     <title>LaTeX图片排版的简单介绍</title>
     <link href="https://wgqhandsome.github.io/2022/04/03/LaTeX%E5%9B%BE%E7%89%87%E6%8E%92%E7%89%88%E7%9A%84%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D/"/>
     <id>https://wgqhandsome.github.io/2022/04/03/LaTeX%E5%9B%BE%E7%89%87%E6%8E%92%E7%89%88%E7%9A%84%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D/</id>
     <published>2022-04-02T16:00:00.000Z</published>
     <updated>2022-04-02T16:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>本文主要介绍LaTeX的图片排版语法部分。<br>关于LaTeX 常用的语法更加详尽的介绍参见：<br><a href="http://texdoc.net/texmf-dist/doc/latex/lshort-chinese/lshort-zh-cn.pdf">一份不太简短的 LATEX 2ε 介绍</a><br>值得注意的是 figure 环境一个浮动体环境，LaTeX 不总是浮动体放在你想要的地方，但是 LaTeX 总是保证浮动体的相对顺序，所以对图片 <code>\label</code> 和 <code>\ref</code> 的交叉引用就显得尤为重要。</p><h2 id="1-插图的基本命令"><a href="#1-插图的基本命令" class="headerlink" title="1 插图的基本命令"></a>1 插图的基本命令</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">% 使用 \includegraphics 需要调用 graphicx 宏包  </span><br><span class="line">\begin&#123;figure&#125;[htbp]  </span><br><span class="line">\centering  </span><br><span class="line">\includegraphics[width=0.7\textwidth]&#123;name.png&#125;  </span><br><span class="line">\caption&#123;图片标题名称&#125;label&#123;fig-label&#125;  </span><br><span class="line">\end&#123;figure&#125;</span><br></pre></td></tr></table></figure><p><code>htbp</code> 允许浮动体排版在当前位置、底部或者单独成页。table 和 figure 浮动体的默认设置为 <code>tbp</code>。<code>!hbp</code> 表示一定把图片放在当前页上，或放在页面底部，或放在一专门页面,不管页面是否美观。</p><ul><li><code>h</code> 当前位置（代码所处的上下文）</li><li><code>t</code> 顶部</li><li><code>b</code> 底部</li><li><code>p</code>单独成页</li><li><code>!</code> 在决定位置时忽视限制</li></ul><!--___## 0.B 两图并排，共享标题<table><tbody><tr><td><pre><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></pre></td><td><pre><span>\begin{figure}[htb]</span><br><span>\centering</span><br><span>\includegraphics[width=0.48\linewidth]{example-image-a}</span><br><span>\hfill</span><br><span>\includegraphics[width=0.48\linewidth]{example-image-b}</span><br><span>\caption{Left: Dummy Caption A, Right: Dummy Caption B}</span><br><span>\end{figure}</span><br></pre></td></tr></tbody></table>![LaTeX-Fig01.png](https://i.loli.net/2020/09/23/dY4EaCi5kM3SB9V.png)## 0.C [](https://andy123t.github.io/2020/09/22/LaTeX-Figure/#%E4%B8%A4%E5%9B%BE%E5%B9%B6%E6%8E%92%EF%BC%8C%E7%8B%AC%E7%AB%8B%E6%A0%87%E9%A2%98 "两图并排，独立标题")两图并排，独立标题<table><tbody><tr><td><pre><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></pre></td><td><pre><span>\begin{figure}[htb]</span><br><span>\centering</span><br><span>\begin{minipage}{0.48\linewidth}</span><br><span>\centering</span><br><span>\includegraphics[width=\linewidth]{example-image-a}</span><br><span>\caption{Dummy Caption A.}</span><br><span>\end{minipage}\hfill</span><br><span>\begin{minipage}{0.48\linewidth}</span><br><span>\centering</span><br><span>\includegraphics[width=\linewidth]{example-image-b}</span><br><span>\caption{Dummy Caption B.}</span><br><span>\end{minipage}</span><br><span>\end{figure}</span><br></pre></td></tr></tbody></table>![LaTeX-Fig02.png](https://i.loli.net/2020/09/23/EfO7HBap63uVDNK.png)如果图片大小不一致，可以用加一个选项 `[t]` 保证图片的底部对齐。(**比较推荐**)<table><tbody><tr><td><pre><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></pre></td><td><pre><span>\begin{figure}[htb]</span><br><span>\centering</span><br><span>\begin{minipage}[t]{0.48\linewidth}</span><br><span>\centering</span><br><span>\includegraphics[width=\linewidth]{example-image-a}</span><br><span>\caption{Dummy Caption A.}</span><br><span>\end{minipage}\hfill</span><br><span>\begin{minipage}[t]{0.48\linewidth}</span><br><span>\centering</span><br><span>\includegraphics[width=0.8\linewidth]{example-image-b}</span><br><span>\caption{Dummy Caption B.}</span><br><span>\end{minipage}</span><br><span>\end{figure}</span><br></pre></td></tr></tbody></table>![LaTeX-Fig02a.png](https://i.loli.net/2020/10/06/nWOgxcos85at1F3.png)## 0.D [](https://andy123t.github.io/2020/09/22/LaTeX-Figure/#%E4%BD%BF%E7%94%A8-subfig-%E5%AE%8F%E5%8C%85 "使用 subfig 宏包")使用 `subfig` 宏包<table><tbody><tr><td><pre><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></pre></td><td><pre><span>% 需要调用 subfig 宏包</span><br><span>\begin{figure}[htb]</span><br><span>\centering</span><br><span>\subfloat[Subcaption A]{\includegraphics[width=0.48\linewidth]{example-image-a}}</span><br><span>\hfill</span><br><span>\subfloat[Subcaption B]{\includegraphics[width=0.48\linewidth]{example-image-b}}</span><br><span>\caption{Two figures.}</span><br><span>\end{figure}</span><br></pre></td></tr></tbody></table>![LaTeX-Fig03.png](https://i.loli.net/2020/09/23/kPGCBTcUqp6Wxv3.png)<table><tbody><tr><td><pre><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></pre></td><td><pre><span>\begin{figure}[htb]</span><br><span>\centering</span><br><span>\subfloat[Subcaption A]{\includegraphics[width=0.32\linewidth]{example-image-a}}</span><br><span>\hfill</span><br><span>\subfloat[Subcaption B]{\includegraphics[width=0.32\linewidth]{example-image-b}}</span><br><span>\hfill</span><br><span>\subfloat[Subcaption C]{\includegraphics[width=0.32\linewidth]{example-image-c}} \\</span><br><span>\subfloat[Subcaption A]{\includegraphics[width=0.32\linewidth]{example-image-a}}</span><br><span>\hfill</span><br><span>\subfloat[Subcaption B]{\includegraphics[width=0.32\linewidth]{example-image-b}}</span><br><span>\hfill</span><br><span>\subfloat[Subcaption C]{\includegraphics[width=0.32\linewidth]{example-image-c}}</span><br><span>\caption{Six figures.}</span><br><span>\end{figure}</span><br></pre></td></tr></tbody></table>![LaTeX-Fig04.png](https://i.loli.net/2020/09/23/Wn862izjcZdu1Ae.png)## 0.E [](https://andy123t.github.io/2020/09/22/LaTeX-Figure/#%E4%BD%BF%E7%94%A8-subcaption-%E5%AE%8F%E5%8C%85 "使用 subcaption 宏包")使用 `subcaption` 宏包<table><tbody><tr><td><pre><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></pre></td><td><pre><span>% 需要调用 subcaption 宏包</span><br><span>\begin{figure}[htb]</span><br><span>\centering</span><br><span>\subcaptionbox{Dummy Subcaption A.}{\includegraphics[width=0.48\linewidth]{example-image-a}}</span><br><span>\hfill</span><br><span>\subcaptionbox{Dummy Subcaption B.}{\includegraphics[width=0.48\linewidth]{example-image-b}}</span><br><span>\caption{Dummy Caption.}</span><br><span>\end{figure}</span><br></pre></td></tr></tbody></table>![LaTeX-Fig05.png](https://i.loli.net/2020/09/23/K5TmQF2Zcew3Sad.png)--><h2 id="2-参考资料"><a href="#2-参考资料" class="headerlink" title="2 参考资料"></a>2 参考资料</h2><p><a href="http://texdoc.net/texmf-dist/doc/latex/lshort-chinese/lshort-zh-cn.pdf">一份不太简短的 LATEX 2ε 介绍</a></p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>本文主要介绍LaTeX的图片排版语法部分。<br>关于LaTeX 常用的语法更加详尽的介绍参见：<br><a href="http://texdoc.net/texmf-dist/doc/latex/lshort-chinese/lshort-zh-cn.pdf">一份不太简短的 LATEX 2ε 介绍</a><br>值得注意的是 figure 环境一个浮动体环境，LaTeX 不总是浮动体放在你想要的地方，但是 LaTeX 总是保证浮动体的相对顺序，所以对图片 <code>\label</code> 和 <code>\ref</code> 的交叉引用就显得尤为重要。</p><h2 id="1-插图的基本命令"><a href="#1-插图的基本命令" class="headerlink" title="1 插图的基本命令"></a>1 插图的基本命令</h2><figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 使用 \includegraphics 需要调用 graphicx 宏包  </span></span><br><span class="line"><span class="keyword">\begin</span>&#123;figure&#125;[htbp]  </span><br><span class="line"><span class="keyword">\centering</span>  </span><br><span class="line"><span class="keyword">\includegraphics</span>[width=0.7<span class="keyword">\textwidth</span>]&#123;name.png&#125;  </span><br><span class="line"><span class="keyword">\caption</span>&#123;图片标题名称&#125;label&#123;fig-label&#125;  </span><br><span class="line"><span class="keyword">\end</span>&#123;figure&#125;</span><br></pre></td></tr></table></figure><p><code>htbp</code> 允许浮动体排版在当前位置、底部或者单独成页。table 和 figure 浮动体的默认设置为 <code>tbp</code>。<code>!hbp</code> 表示一定把图片放在当前页上，或放在页面底部，或放在一专门页面,不管页面是否美观。</p><ul><li><code>h</code> 当前位置（代码所处的上下文）</li><li><code>t</code> 顶部</li><li><code>b</code> 底部</li><li><code>p</code>单独成页</li><li><code>!</code> 在决定位置时忽视限制</li></ul><!--___## 0.B 两图并排，共享标题<table><tbody><tr><td><pre><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></pre></td><td><pre><span>\begin{figure}[htb]</span><br><span>\centering</span><br><span>\includegraphics[width=0.48\linewidth]{example-image-a}</span><br><span>\hfill</span><br><span>\includegraphics[width=0.48\linewidth]{example-image-b}</span><br><span>\caption{Left: Dummy Caption A, Right: Dummy Caption B}</span><br><span>\end{figure}</span><br></pre></td></tr></tbody></table>![LaTeX-Fig01.png](https://i.loli.net/2020/09/23/dY4EaCi5kM3SB9V.png)## 0.C [](https://andy123t.github.io/2020/09/22/LaTeX-Figure/#%E4%B8%A4%E5%9B%BE%E5%B9%B6%E6%8E%92%EF%BC%8C%E7%8B%AC%E7%AB%8B%E6%A0%87%E9%A2%98 "两图并排，独立标题")两图并排，独立标题<table><tbody><tr><td><pre><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></pre></td><td><pre><span>\begin{figure}[htb]</span><br><span>\centering</span><br><span>\begin{minipage}{0.48\linewidth}</span><br><span>\centering</span><br><span>\includegraphics[width=\linewidth]{example-image-a}</span><br><span>\caption{Dummy Caption A.}</span><br><span>\end{minipage}\hfill</span><br><span>\begin{minipage}{0.48\linewidth}</span><br><span>\centering</span><br><span>\includegraphics[width=\linewidth]{example-image-b}</span><br><span>\caption{Dummy Caption B.}</span><br><span>\end{minipage}</span><br><span>\end{figure}</span><br></pre></td></tr></tbody></table>![LaTeX-Fig02.png](https://i.loli.net/2020/09/23/EfO7HBap63uVDNK.png)如果图片大小不一致，可以用加一个选项 `[t]` 保证图片的底部对齐。(**比较推荐**)<table><tbody><tr><td><pre><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></pre></td><td><pre><span>\begin{figure}[htb]</span><br><span>\centering</span><br><span>\begin{minipage}[t]{0.48\linewidth}</span><br><span>\centering</span><br><span>\includegraphics[width=\linewidth]{example-image-a}</span><br><span>\caption{Dummy Caption A.}</span><br><span>\end{minipage}\hfill</span><br><span>\begin{minipage}[t]{0.48\linewidth}</span><br><span>\centering</span><br><span>\includegraphics[width=0.8\linewidth]{example-image-b}</span><br><span>\caption{Dummy Caption B.}</span><br><span>\end{minipage}</span><br><span>\end{figure}</span><br></pre></td></tr></tbody></table>![LaTeX-Fig02a.png](https://i.loli.net/2020/10/06/nWOgxcos85at1F3.png)## 0.D [](https://andy123t.github.io/2020/09/22/LaTeX-Figure/#%E4%BD%BF%E7%94%A8-subfig-%E5%AE%8F%E5%8C%85 "使用 subfig 宏包")使用 `subfig` 宏包<table><tbody><tr><td><pre><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></pre></td><td><pre><span>% 需要调用 subfig 宏包</span><br><span>\begin{figure}[htb]</span><br><span>\centering</span><br><span>\subfloat[Subcaption A]{\includegraphics[width=0.48\linewidth]{example-image-a}}</span><br><span>\hfill</span><br><span>\subfloat[Subcaption B]{\includegraphics[width=0.48\linewidth]{example-image-b}}</span><br><span>\caption{Two figures.}</span><br><span>\end{figure}</span><br></pre></td></tr></tbody></table>![LaTeX-Fig03.png](https://i.loli.net/2020/09/23/kPGCBTcUqp6Wxv3.png)<table><tbody><tr><td><pre><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></pre></td><td><pre><span>\begin{figure}[htb]</span><br><span>\centering</span><br><span>\subfloat[Subcaption A]{\includegraphics[width=0.32\linewidth]{example-image-a}}</span><br><span>\hfill</span><br><span>\subfloat[Subcaption B]{\includegraphics[width=0.32\linewidth]{example-image-b}}</span><br><span>\hfill</span><br><span>\subfloat[Subcaption C]{\includegraphics[width=0.32\linewidth]{example-image-c}} \\</span><br><span>\subfloat[Subcaption A]{\includegraphics[width=0.32\linewidth]{example-image-a}}</span><br><span>\hfill</span><br><span>\subfloat[Subcaption B]{\includegraphics[width=0.32\linewidth]{example-image-b}}</span><br><span>\hfill</span><br><span>\subfloat[Subcaption C]{\includegraphics[width=0.32\linewidth]{example-image-c}}</span><br><span>\caption{Six figures.}</span><br><span>\end{figure}</span><br></pre></td></tr></tbody></table>![LaTeX-Fig04.png](https://i.loli.net/2020/09/23/Wn862izjcZdu1Ae.png)## 0.E [](https://andy123t.github.io/2020/09/22/LaTeX-Figure/#%E4%BD%BF%E7%94%A8-subcaption-%E5%AE%8F%E5%8C%85 "使用 subcaption 宏包")使用 `subcaption` 宏包<table><tbody><tr><td><pre><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></pre></td><td><pre><span>% 需要调用 subcaption 宏包</span><br><span>\begin{figure}[htb]</span><br><span>\centering</span><br><span>\subcaptionbox{Dummy Subcaption A.}{\includegraphics[width=0.48\linewidth]{example-image-a}}</span><br><span>\hfill</span><br><span>\subcaptionbox{Dummy Subcaption B.}{\includegraphics[width=0.48\linewidth]{example-image-b}}</span><br><span>\caption{Dummy Caption.}</span><br><span>\end{figure}</span><br></pre></td></tr></tbody></table>![LaTeX-Fig05.png](https://i.loli.net/2020/09/23/K5TmQF2Zcew3Sad.png)--><h2 id="2-参考资料"><a href="#2-参考资料" class="headerlink" title="2 参考资料"></a>2 参考资料</h2><p><a href="http://texdoc.net/texmf-dist/doc/latex/lshort-chinese/lshort-zh-cn.pdf">一份不太简短的 LATEX 2ε 介绍</a></p>]]></content>
     
     
       
@@ -33,100 +83,14 @@
     
     
     
-    <category term="利器器" scheme="https://wgqhandsome.github.io/categories/%E5%88%A9%E5%99%A8%E5%99%A8/"/>
+    <category term="利其器" scheme="https://wgqhandsome.github.io/categories/%E5%88%A9%E5%85%B6%E5%99%A8/"/>
     
-    <category term="LaTex" scheme="https://wgqhandsome.github.io/categories/%E5%88%A9%E5%99%A8%E5%99%A8/LaTex/"/>
+    <category term="LaTex" scheme="https://wgqhandsome.github.io/categories/%E5%88%A9%E5%85%B6%E5%99%A8/LaTex/"/>
     
     
     <category term="Todo" scheme="https://wgqhandsome.github.io/tags/Todo/"/>
     
     <category term="LaTex" scheme="https://wgqhandsome.github.io/tags/LaTex/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一个旋律优美的曲子</title>
-    <link href="https://wgqhandsome.github.io/2022/04/01/%E4%B8%80%E4%B8%AA%E6%97%8B%E5%BE%8B%E4%BC%98%E7%BE%8E%E7%9A%84%E6%9B%B2%E5%AD%90/"/>
-    <id>https://wgqhandsome.github.io/2022/04/01/%E4%B8%80%E4%B8%AA%E6%97%8B%E5%BE%8B%E4%BC%98%E7%BE%8E%E7%9A%84%E6%9B%B2%E5%AD%90/</id>
-    <published>2022-03-31T16:00:00.000Z</published>
-    <updated>2022-04-01T15:43:04.113Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>朋友推荐的一首旋律优美的曲子</p><iframe src="//player.bilibili.com/player.html?aid=40755951&bvid=BV1it411H75q&as_wide=1&high_quality=1&danmaku=0&cid=71582607&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    
-    <category term="Todo" scheme="https://wgqhandsome.github.io/tags/Todo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>什么是真正的强者？</title>
-    <link href="https://wgqhandsome.github.io/2022/04/01/%E4%BB%80%E4%B9%88%E6%98%AF%E7%9C%9F%E6%AD%A3%E7%9A%84%E5%BC%BA%E8%80%85/"/>
-    <id>https://wgqhandsome.github.io/2022/04/01/%E4%BB%80%E4%B9%88%E6%98%AF%E7%9C%9F%E6%AD%A3%E7%9A%84%E5%BC%BA%E8%80%85/</id>
-    <published>2022-03-31T16:00:00.000Z</published>
-    <updated>2022-04-03T08:16:12.351Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>什么是真正的强者？首先应该从想要做到开始。</p><iframe src="//player.bilibili.com/player.html?aid=507153263&bvid=BV1Jg411P7yg&as_wide=1&high_quality=1&danmaku=0cid=456705109&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><p>分割线</p><iframe src="//player.bilibili.com/player.html?aid=507153263&bvid=BV1Jg411P7yg&as_wide=1&high_quality=1&danmaku=0cid=456705109&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    
-    <category term="Todo" scheme="https://wgqhandsome.github.io/tags/Todo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我心中的天下第一，盖聂。</title>
-    <link href="https://wgqhandsome.github.io/2022/04/01/%E6%88%91%E5%BF%83%E4%B8%AD%E7%9A%84%E5%A4%A9%E4%B8%8B%E7%AC%AC%E4%B8%80%EF%BC%8C%E7%9B%96%E8%81%82%E3%80%82/"/>
-    <id>https://wgqhandsome.github.io/2022/04/01/%E6%88%91%E5%BF%83%E4%B8%AD%E7%9A%84%E5%A4%A9%E4%B8%8B%E7%AC%AC%E4%B8%80%EF%BC%8C%E7%9B%96%E8%81%82%E3%80%82/</id>
-    <published>2022-03-31T16:00:00.000Z</published>
-    <updated>2022-04-01T15:45:18.111Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>我心中的天下第一，盖聂。</p><iframe src="//player.bilibili.com/player.html?aid=934370399&bvid=BV1oM4y1A7Lg&as_wide=1&high_quality=1&danmaku=0&cid=446851737&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    
-    <category term="Todo" scheme="https://wgqhandsome.github.io/tags/Todo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>就从这里开始吧</title>
-    <link href="https://wgqhandsome.github.io/2022/03/31/%E5%B0%B1%E4%BB%8E%E8%BF%99%E9%87%8C%E5%BC%80%E5%A7%8B%E5%90%A7/"/>
-    <id>https://wgqhandsome.github.io/2022/03/31/%E5%B0%B1%E4%BB%8E%E8%BF%99%E9%87%8C%E5%BC%80%E5%A7%8B%E5%90%A7/</id>
-    <published>2022-03-31T09:16:33.000Z</published>
-    <updated>2022-04-02T12:52:00.048Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>你好，朋友<br>欢迎来到我的地盘</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
     
   </entry>
   
