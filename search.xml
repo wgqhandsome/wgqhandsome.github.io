@@ -1445,4 +1445,23 @@ ___
         <tag>随笔</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Latex中加入行号</title>
+    <url>/2022/04/06/Latex%E4%B8%AD%E5%8A%A0%E5%85%A5%E8%A1%8C%E5%8F%B7/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="1-单栏行号"><a href="#1-单栏行号" class="headerlink" title="1 单栏行号"></a>1 单栏行号</h2><p>在tex文件中加入以下两行命令：</p>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\usepackage</span>&#123;lineno&#125;</span><br><span class="line"><span class="keyword">\linenumbers</span> </span><br></pre></td></tr></table></figure>
+
+<p>第一个是添加lineno包，第二个在开始需要编号的位置加入行号。</p>
+<p>注意：这个是针对单行，并且公式是不会标记行号的，还有\nolinenumbers为结束行号。</p>
+<h2 id="2-双栏行号"><a href="#2-双栏行号" class="headerlink" title="2 双栏行号"></a>2 双栏行号</h2><figure class="highlight tex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\usepackage</span>[switch]&#123;lineno&#125;</span><br><span class="line"><span class="keyword">\linenumbers</span> </span><br></pre></td></tr></table></figure>
+
+<p>这个是针对杂志的投稿要求，需要是双栏，双栏文本使行号位于两侧，即页边位置。  </p>
+]]></content>
+      <categories>
+        <category>利其器，LaTex</category>
+      </categories>
+      <tags>
+        <tag>Todo</tag>
+      </tags>
+  </entry>
 </search>
