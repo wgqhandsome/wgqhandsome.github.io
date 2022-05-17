@@ -11,7 +11,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>LaTeX数学公式系列九之数学符号的字体控制 |  你好哇，朋友</title>
+      <title>LaTeX数学公式系列9之数学符号的字体控制 |  你好哇，朋友</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/wgqico.ico" />
@@ -76,7 +76,7 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  LaTeX数学公式系列九之数学符号的字体控制
+  LaTeX数学公式系列9之数学符号的字体控制
 </h1>
  
 
@@ -121,14 +121,14 @@
     <div class="article-entry" itemprop="articleBody">
        
   <h2 id="1-数学符号的字体控制"><a href="#1-数学符号的字体控制" class="headerlink" title="1 数学符号的字体控制"></a>1 数学符号的字体控制</h2><h3 id="1-A-数学字母字体"><a href="#1-A-数学字母字体" class="headerlink" title="1.A 数学字母字体"></a>1.A 数学字母字体</h3><p>LATEX允许一部分数学符号切换字体，主要是拉丁字母、数字等等。表4.2给出了切换字体的命令。某一些命令需要字体宏包的支持。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">$\mathcal&#123;R&#125; \quad \mathfrak&#123;R&#125; \quad \mathbb&#123;R&#125;$</span><br><span class="line"></span><br><span class="line">$$</span><br><span class="line">\mathcal&#123;L&#125;</span><br><span class="line">= -\frac&#123;1&#125;&#123;4&#125;F_&#123;\mu\nu&#125;F^&#123;\mu\nu&#125;</span><br><span class="line">$$</span><br><span class="line"></span><br><span class="line">$\mathfrak&#123;su&#125;(2)$ and  </span><br><span class="line">$\mathfrak&#123;so&#125;(3)$ Lie algebr</span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\mathcal</span>&#123;R&#125; <span class="keyword">\quad</span> <span class="keyword">\mathfrak</span>&#123;R&#125; <span class="keyword">\quad</span> <span class="keyword">\mathbb</span>&#123;R&#125;<span class="built_in">$</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br><span class="line"><span class="keyword">\mathcal</span>&#123;L&#125;</span><br><span class="line">= -<span class="keyword">\frac</span>&#123;1&#125;&#123;4&#125;F<span class="built_in">_</span>&#123;<span class="keyword">\mu</span><span class="keyword">\nu</span>&#125;F<span class="built_in">^</span>&#123;<span class="keyword">\mu</span><span class="keyword">\nu</span>&#125;</span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">$</span><span class="keyword">\mathfrak</span>&#123;su&#125;(2)<span class="built_in">$</span> and  </span><br><span class="line"><span class="built_in">$</span><span class="keyword">\mathfrak</span>&#123;so&#125;(3)<span class="built_in">$</span> Lie algebr</span><br></pre></td></tr></table></figure>
 
 
 <p>$\mathcal{R} \quad \mathfrak{R} \quad \mathbb{R}$</p>
 <p>$$<br>\mathcal{L}<br>&#x3D; -\frac{1}{4}F_{\mu\nu}F^{\mu\nu}<br>$$</p>
 <p>$\mathfrak{su}(2)$ and<br>$\mathfrak{so}(3)$ Lie algebr</p>
 <h3 id="1-B-数学符号的尺寸"><a href="#1-B-数学符号的尺寸" class="headerlink" title="1.B 数学符号的尺寸"></a>1.B 数学符号的尺寸</h3><p>数学符号按照符号排版的位置规定尺寸，从大到小包括行间公式尺寸、行内公式尺寸、上下标尺寸、次级上下标尺寸。除了字号有别之外，行间和行内公式尺寸下的巨算符也使用不一样的大小。LATEX为每个数学尺寸指定了一个切换的命令，见4.3。<br>例如<strong>行间公式的分式内，分子分母使用行内公式尺寸，巨算符采用行内尺寸的形式。</strong> 对比一下分子分母使用<code>\displaystyle</code>命令与否的区别：  </p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$$</span><br><span class="line">P = \frac</span><br><span class="line">&#123;\sum_&#123;i=1&#125;^n (x_i- x)(y_i- y)&#125;</span><br><span class="line">&#123;\displaystyle \left[</span><br><span class="line">\sum_&#123;i=1&#125;^n (x_i-x)^2</span><br><span class="line">\sum_&#123;i=1&#125;^n (y_i-y)^2</span><br><span class="line">\right]^&#123;1/2&#125; &#125;</span><br><span class="line">$$</span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br><span class="line">P = <span class="keyword">\frac</span></span><br><span class="line">&#123;<span class="keyword">\sum</span><span class="built_in">_</span>&#123;i=1&#125;<span class="built_in">^</span>n (x<span class="built_in">_</span>i- x)(y<span class="built_in">_</span>i- y)&#125;</span><br><span class="line">&#123;<span class="keyword">\displaystyle</span> <span class="keyword">\left</span>[</span><br><span class="line"><span class="keyword">\sum</span><span class="built_in">_</span>&#123;i=1&#125;<span class="built_in">^</span>n (x<span class="built_in">_</span>i-x)<span class="built_in">^</span>2</span><br><span class="line"><span class="keyword">\sum</span><span class="built_in">_</span>&#123;i=1&#125;<span class="built_in">^</span>n (y<span class="built_in">_</span>i-y)<span class="built_in">^</span>2</span><br><span class="line"><span class="keyword">\right</span>]<span class="built_in">^</span>&#123;1/2&#125; &#125;</span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
 
 
 <p>$$<br>P &#x3D; \frac<br>{\sum_{i&#x3D;1}^n (x_i- x)(y_i- y)}<br>{\displaystyle \left[<br>\sum_{i&#x3D;1}^n (x_i-x)^2<br>\sum_{i&#x3D;1}^n (y_i-y)^2<br>\right]^{1&#x2F;2} }<br>$$</p>
@@ -227,7 +227,7 @@
         <strong class="article-nav-caption">上一篇</strong>
         <div class="article-nav-title">
           
-            LaTeX数学公式系列五之箭头
+            LaTeX数学公式系列5之箭头
           
         </div>
       </a>
@@ -235,7 +235,7 @@
     
       <a href="/2022/05/12/LaTex/LaTeX%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E7%B3%BB%E5%88%978%E4%B9%8B%E6%95%B0%E7%BB%84%E7%9F%A9%E9%98%B5%E5%88%86%E6%AE%B5%E5%87%BD%E6%95%B0/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">LaTeX数学公式系列八之数组矩阵分段函数</div>
+        <div class="article-nav-title">LaTeX数学公式系列8之数组矩阵分段函数</div>
       </a>
     
   </nav>

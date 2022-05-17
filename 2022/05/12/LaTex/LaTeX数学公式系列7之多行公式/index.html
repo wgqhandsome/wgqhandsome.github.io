@@ -11,7 +11,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>LaTeX数学公式系列七之多行公式 |  你好哇，朋友</title>
+      <title>LaTeX数学公式系列7之多行公式 |  你好哇，朋友</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/wgqico.ico" />
@@ -76,7 +76,7 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  LaTeX数学公式系列七之多行公式
+  LaTeX数学公式系列7之多行公式
 </h1>
  
 
@@ -123,20 +123,20 @@
   <h2 id="1-多行公式"><a href="#1-多行公式" class="headerlink" title="1 多行公式"></a>1 多行公式</h2><h3 id="1-A-长公式折行"><a href="#1-A-长公式折行" class="headerlink" title="1.A 长公式折行"></a>1.A 长公式折行</h3><p>通常来讲应当避免写出超过一行而需要折行的长公式。如果一定要折行的话，<strong>优先在等号之前折行</strong>，其次在加号、减号之前，再次在乘号、除号之前。其它位置应当避免折行。<br>amsmath宏包的multline环境提供了书写折行长公式的方便环境。它允许用<code>\\\\</code>(markdown中显示:<code>\\</code>)折行，将公式编号放在最后一行。多行公式的首行左对齐，末行右对齐，其余行居中。  </p>
 <p><strong>注意：因为markdown中<code>\</code>是转义符，所以<code>\\</code>才表示一个<code>\</code>，所以这里要写四个<code>\(\\\\)</code>。</strong></p>
 <p>例如：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$$</span><br><span class="line">\begin&#123;multline&#125;</span><br><span class="line">a + b + c + d + e + f+ g + h + i \\</span><br><span class="line">= j + k + l + m + n\\</span><br><span class="line">= o + p + q + r + s\\</span><br><span class="line">= t + u + v + x + z</span><br><span class="line">\end&#123;multline&#125;</span><br><span class="line">$$</span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br><span class="line"><span class="keyword">\begin</span>&#123;multline&#125;</span><br><span class="line">a + b + c + d + e + f+ g + h + i <span class="keyword">\\</span></span><br><span class="line">= j + k + l + m + n<span class="keyword">\\</span></span><br><span class="line">= o + p + q + r + s<span class="keyword">\\</span></span><br><span class="line">= t + u + v + x + z</span><br><span class="line"><span class="keyword">\end</span>&#123;multline&#125;</span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
 
 
 <p>效果如下：</p>
 <p>$$<br>\begin{multline}<br>a + b + c + d + e + f+ g + h + i \<br>&#x3D; j + k + l + m + n\<br>&#x3D; o + p + q + r + s\<br>&#x3D; t + u + v + x + z<br>\end{multline}<br>$$</p>
 <p>与表格不同的是，公式的最后一行不写<code>\\</code>，如果写了，反倒会产生一个多余的空行。类似<code>equation*</code>，<code>multline*</code>环境排版不带编号的折行长公式。</p>
 <h3 id="1-B-多行公式"><a href="#1-B-多行公式" class="headerlink" title="1.B 多行公式"></a>1.B 多行公式</h3><p>更多的情况是，我们需要罗列一系列公式，并令其按照等号对齐。读者可能阅读过其它手册或者资料，知道LATEX提供了eqnarray环境。它按照等号左边——等号——等号右边呈三列对齐，但等号周围的空隙过大，加上公式编号等一些bug，目前已不推荐使用。<br>目前最常用的是align环境，它将公式用&amp;隔为两部分并对齐。分隔符通常放在等号左边：  </p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$$</span><br><span class="line">\begin&#123;align&#125;</span><br><span class="line">a &amp; = b + c \\</span><br><span class="line">&amp; = d + e</span><br><span class="line">\end&#123;align&#125;</span><br><span class="line">$$</span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br><span class="line"><span class="keyword">\begin</span>&#123;align&#125;</span><br><span class="line">a <span class="built_in">&amp;</span> = b + c <span class="keyword">\\</span></span><br><span class="line"><span class="built_in">&amp;</span> = d + e</span><br><span class="line"><span class="keyword">\end</span>&#123;align&#125;</span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
 
 
 <p>效果如下：</p>
 <p>$$<br>\begin{align}<br>a &amp; &#x3D; b + c \<br>&amp; &#x3D; d + e<br>\end{align}<br>$$</p>
 <p><code>align</code>环境会给每行公式都编号。我们仍然可以用<code>\notag</code>去掉某行的编号。在以下的例子，为了对齐加号，我们将分隔符放在等号右边，这时需要给等号后添加一对括号<code>&#123;&#125;</code>以产生正常的间距，不建议使用<code>\quad</code>：  </p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">$$</span><br><span class="line">\begin&#123;align&#125;</span><br><span class="line">a =&#123;&#125; &amp; b + c \\</span><br><span class="line">=&#123;&#125; &amp; d + e + f + g + h + i</span><br><span class="line">+ j + k + l \notag \\</span><br><span class="line">&amp; + m + n + o \\</span><br><span class="line">=&#123;&#125; &amp; p + q + r + s</span><br><span class="line">\end&#123;align&#125;</span><br><span class="line">$$</span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br><span class="line"><span class="keyword">\begin</span>&#123;align&#125;</span><br><span class="line">a =&#123;&#125; <span class="built_in">&amp;</span> b + c <span class="keyword">\\</span></span><br><span class="line">=&#123;&#125; <span class="built_in">&amp;</span> d + e + f + g + h + i</span><br><span class="line">+ j + k + l <span class="keyword">\notag</span> <span class="keyword">\\</span></span><br><span class="line"><span class="built_in">&amp;</span> + m + n + o <span class="keyword">\\</span></span><br><span class="line">=&#123;&#125; <span class="built_in">&amp;</span> p + q + r + s</span><br><span class="line"><span class="keyword">\end</span>&#123;align&#125;</span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
 
 
 <p>$$<br>\begin{align}<br>a &#x3D;{} &amp; b + c \<br>&#x3D;{} &amp; d + e + f + g + h + i</p>
@@ -145,30 +145,30 @@
 </ul>
 <p><strong>注意：如果这里仅仅用行内模式即两边只用一个<code>$</code>来围出公式会出现排版错误的现象，因此如果在日常写作中遇到行内模式出现bug可以线尝试采用单行模式即用<code>$$</code>来围出公式。</strong></p>
 <p><code>align</code>还能够对齐多组公式，除等号前的&amp;之外，公式之间也用&amp;分隔：  </p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$\begin&#123;align&#125; a &amp;=1  &amp;  b &amp;=2   &amp; c &amp;=3   \\ d &amp;=-1 &amp;  e &amp;=-2  &amp; f &amp;=-5 \end&#123;align&#125;$</span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\begin</span>&#123;align&#125; a <span class="built_in">&amp;</span>=1  <span class="built_in">&amp;</span>  b <span class="built_in">&amp;</span>=2   <span class="built_in">&amp;</span> c <span class="built_in">&amp;</span>=3   <span class="keyword">\\</span> d <span class="built_in">&amp;</span>=-1 <span class="built_in">&amp;</span>  e <span class="built_in">&amp;</span>=-2  <span class="built_in">&amp;</span> f <span class="built_in">&amp;</span>=-5 <span class="keyword">\end</span>&#123;align&#125;<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
 
 
 <p>$\begin{align} a &amp;&#x3D;1  &amp;  b &amp;&#x3D;2   &amp; c &amp;&#x3D;3   \ d &amp;&#x3D;-1 &amp;  e &amp;&#x3D;-2  &amp; f &amp;&#x3D;-5 \end{align}$</p>
 <p>如果我们不需要按等号对齐，只需罗列数个公式，gather将是一个很好用的环境：  </p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$\begin&#123;gather&#125; a = b + c \\ d = e + f + g \\ h + i = j + k \notag \\ l + m = n \end&#123;gather&#125;$</span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\begin</span>&#123;gather&#125; a = b + c <span class="keyword">\\</span> d = e + f + g <span class="keyword">\\</span> h + i = j + k <span class="keyword">\notag</span> <span class="keyword">\\</span> l + m = n <span class="keyword">\end</span>&#123;gather&#125;<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
 
 
 <p>$\begin{gather} a &#x3D; b + c \ d &#x3D; e + f + g \ h + i &#x3D; j + k \notag \ l + m &#x3D; n \end{gather}$</p>
 <p><code>align</code>和<code>gather</code>有对应的不带编号的版本<code>align*</code>和<code>gather*</code>。</p>
 <h3 id="1-C-公用编号的多行公式"><a href="#1-C-公用编号的多行公式" class="headerlink" title="1.C 公用编号的多行公式"></a>1.C 公用编号的多行公式</h3><p>另一个常见的需求是将多个公式组在一起公用一个编号，编号位于公式的居中位置。为此，amsmath宏包提供了诸如<code>aligned</code>、<code>gathered</code>等环境，与<code>equation</code>环境套用。以<code>-ed</code>结尾的环境用法与前一节不以<code>-ed</code>结尾的环境用法一一对应。我们仅以<code>aligned</code>举例：  </p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$\begin&#123;equation&#125; \begin&#123;aligned&#125; a &amp;= b + c \\ d &amp;= e + f + g \\ h + i &amp;= j + k \\ l + m &amp;= n \end&#123;aligned&#125; \end&#123;equation&#125;$</span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\begin</span>&#123;equation&#125; <span class="keyword">\begin</span>&#123;aligned&#125; a <span class="built_in">&amp;</span>= b + c <span class="keyword">\\</span> d <span class="built_in">&amp;</span>= e + f + g <span class="keyword">\\</span> h + i <span class="built_in">&amp;</span>= j + k <span class="keyword">\\</span> l + m <span class="built_in">&amp;</span>= n <span class="keyword">\end</span>&#123;aligned&#125; <span class="keyword">\end</span>&#123;equation&#125;<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
 
 
 <p>$\begin{equation} \begin{aligned} a &amp;&#x3D; b + c \ d &amp;&#x3D; e + f + g \ h + i &amp;&#x3D; j + k \ l + m &amp;&#x3D; n \end{aligned} \end{equation}$</p>
 <p><code>split</code>环境和<code>aligned</code>环境用法类似，也用于和<code>equation</code>环境套用，区别是<code>split</code>只能将每行的一个公式分两栏，<code>aligned</code>允许每行多个公式多栏。</p>
 <h3 id="1-D-公式中的间距"><a href="#1-D-公式中的间距" class="headerlink" title="1.D 公式中的间距"></a>1.D 公式中的间距</h3><p>前文提到过，绝大部分时候，数学公式中各元素的间距是根据符号类型自动生成的，需要我们手动调整的情况极少。我们已经认识了两个生成间距的命令<code>\quad</code>和<code>\qquad</code>。在公式中我们还可能用到的间距包括<code>\,</code>、<code>\:</code>、<code>\;</code>以及负间距<code>\!</code>，其中<code>\quad</code>、<code>\qquad</code>和<code>\,</code>在文本和数学环境中可用，后三个命令只用于数学环境。文本中的<code>\␣</code>也能使用在数学公式中。</p>
 <p>一个常见的用途是修正积分的被积函数$f(x)$和微元$dx$之间的距离。注意微元里的$d$用的是直立体：  </p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$$</span><br><span class="line">\int_a^b f(x)\mathrm&#123;d&#125;x</span><br><span class="line">\qquad</span><br><span class="line">\int_a^b f(x)\,\mathrm&#123;d&#125;x</span><br><span class="line">$$</span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br><span class="line"><span class="keyword">\int</span><span class="built_in">_</span>a<span class="built_in">^</span>b f(x)<span class="keyword">\mathrm</span>&#123;d&#125;x</span><br><span class="line"><span class="keyword">\qquad</span></span><br><span class="line"><span class="keyword">\int</span><span class="built_in">_</span>a<span class="built_in">^</span>b f(x)<span class="keyword">\,</span><span class="keyword">\mathrm</span>&#123;d&#125;x</span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
 
 <p>$$<br>\int_a^b f(x)\mathrm{d}x<br>\qquad<br>\int_a^b f(x),\mathrm{d}x<br>$$</p>
 <p>另一个用途是生成多重积分号。如果我们直接连写两个<code>\int</code>，之间的间距将会过宽，此时可以使用负间距<code>\!</code>修正之。不过amsmath提供了更方便的多重积分号，如二重积分<code>\iint</code>、三重积分<code>\iiint</code>等。</p>
 <p><code>split</code>环境和<code>aligned</code>环境用法类似，也用于和<code>equation</code>环境套用，区别是<code>split</code>只能将每行的一个公式分两栏，<code>aligned</code>允许每行多个公式多栏。  </p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">$$</span><br><span class="line">\newcommand\diff&#123;\,\mathrm&#123;d&#125;&#125;</span><br><span class="line">\begin&#123;gather*&#125;</span><br><span class="line">\int\int f(x)g(y)</span><br><span class="line">\diff x \diff y \\</span><br><span class="line">\int\!\!\!\int</span><br><span class="line">f(x)g(y) \diff x \diff y \\</span><br><span class="line">\iint f(x)g(y) \diff x \diff y \\</span><br><span class="line">\iint\quad \iiint\quad \idotsint</span><br><span class="line">\end&#123;gather*&#125;</span><br><span class="line">$$</span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br><span class="line"><span class="keyword">\newcommand</span><span class="keyword">\diff</span>&#123;<span class="keyword">\,</span><span class="keyword">\mathrm</span>&#123;d&#125;&#125;</span><br><span class="line"><span class="keyword">\begin</span>&#123;gather*&#125;</span><br><span class="line"><span class="keyword">\int</span><span class="keyword">\int</span> f(x)g(y)</span><br><span class="line"><span class="keyword">\diff</span> x <span class="keyword">\diff</span> y <span class="keyword">\\</span></span><br><span class="line"><span class="keyword">\int</span><span class="keyword">\!</span><span class="keyword">\!</span><span class="keyword">\!</span><span class="keyword">\int</span></span><br><span class="line">f(x)g(y) <span class="keyword">\diff</span> x <span class="keyword">\diff</span> y <span class="keyword">\\</span></span><br><span class="line"><span class="keyword">\iint</span> f(x)g(y) <span class="keyword">\diff</span> x <span class="keyword">\diff</span> y <span class="keyword">\\</span></span><br><span class="line"><span class="keyword">\iint</span><span class="keyword">\quad</span> <span class="keyword">\iiint</span><span class="keyword">\quad</span> <span class="keyword">\idotsint</span></span><br><span class="line"><span class="keyword">\end</span>&#123;gather*&#125;</span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
 
 <p>$$<br>\newcommand\diff{,\mathrm{d}}<br>\begin{gather*}<br>\int\int f(x)g(y)<br>\diff x \diff y \<br>\int!!!\int<br>f(x)g(y) \diff x \diff y \<br>\iint f(x)g(y) \diff x \diff y \<br>\iint\quad \iiint\quad \idotsint<br>\end{gather*}<br>$$</p>
  
@@ -240,7 +240,7 @@
         <strong class="article-nav-caption">上一篇</strong>
         <div class="article-nav-title">
           
-            LaTeX数学公式系列四之数学重音和上下括号
+            LaTeX数学公式系列4之数学重音和上下括号
           
         </div>
       </a>
@@ -248,7 +248,7 @@
     
       <a href="/2022/05/12/LaTex/LaTeX%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E7%B3%BB%E5%88%976%E4%B9%8B%E6%8B%AC%E5%8F%B7%E5%92%8C%E5%AE%9A%E7%95%8C%E7%AC%A6/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">LaTeX数学公式系列六之括号和定界符</div>
+        <div class="article-nav-title">LaTeX数学公式系列6之括号和定界符</div>
       </a>
     
   </nav>
