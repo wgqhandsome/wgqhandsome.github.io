@@ -12,6 +12,12 @@
 
 <link rel="stylesheet" href="/css/main.css">
 
+<!-- Vega scripts -->
+<script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+
 
 <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
 
@@ -146,6 +152,101 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2024/07/15/skill/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/wgq.jpg">
+      <meta itemprop="name" content="WGQ">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Welcome to My Learning Loop">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2024/07/15/skill/" class="post-title-link" itemprop="url">Professional Skills: My Technical Proficiency</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2024-07-15 00:00:00 / Modified: 22:28:04" itemprop="dateCreated datePublished" datetime="2024-07-15T00:00:00+08:00">2024-07-15</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="Vega-Lite-Chart-Example"><a href="#Vega-Lite-Chart-Example" class="headerlink" title="Vega-Lite Chart Example"></a>Vega-Lite Chart Example</h2><p>This is an example of embedding a Vega-Lite chart in Hexo.</p>
+<div id="vega-chart"></div>
+<script type="text/javascript">
+  var spec = {
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Bar Chart with a spacing-saving y-axis",
+    "data": {"url": "https://vega.github.io/vega-lite/data/cars.json"},
+    "height": {"step": 50},
+    "mark": {"type": "bar", "yOffset": 5, "cornerRadiusEnd": 2, "height": {"band": 0.5}},
+    "encoding": {
+      "y": {
+        "field": "Origin",
+        "scale": {"padding": 0},
+        "axis": {
+          "bandPosition": 0,
+          "grid": true,
+          "domain": false,
+          "ticks": false,
+          "labelAlign": "left",
+          "labelBaseline": "middle",
+          "labelPadding": -5,
+          "labelOffset": -15,
+          "titleX": 5,
+          "titleY": -5,
+          "titleAngle": 0,
+          "titleAlign": "left"
+        }
+      },
+      "x": {
+        "aggregate": "count",
+        "axis": {"grid": false},
+        "title": "Number of Cars"
+      }
+    }
+  };
+
+<p>  vegaEmbed(‘#vega-chart’, spec);<br></script></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
     <link itemprop="mainEntityOfPage" href="http://example.com/2024/07/14/image-generation/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -177,7 +278,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2024-07-15 15:37:07" itemprop="dateModified" datetime="2024-07-15T15:37:07+08:00">2024-07-15</time>
+                <time title="Modified: 2024-07-15 22:26:19" itemprop="dateModified" datetime="2024-07-15T22:26:19+08:00">2024-07-15</time>
               </span>
 
           
@@ -196,6 +297,43 @@
 
 <p>AI image generation refers to the use of artificial intelligence technologies to create, modify, or enhance images. Through deep learning algorithms, AI can learn and mimic various artistic styles, even creating entirely original artworks.</p>
 <h3 id="Examples-of-AI-Generated-Images"><a href="#Examples-of-AI-Generated-Images" class="headerlink" title="Examples of AI-Generated Images"></a>Examples of AI-Generated Images</h3><p><img src="/../images/got-for-it.webp" alt="AI-Generated image"><br><img src="/../images/pingpong.webp" alt="AI-Generated image"><br><img src="/../images/pingpong2.webp" alt="AI-Generated image"></p>
+<h2 id="Vega-Lite-Chart-Example"><a href="#Vega-Lite-Chart-Example" class="headerlink" title="Vega-Lite Chart Example"></a>Vega-Lite Chart Example</h2><p>This is an example of embedding a Vega-Lite chart in Hexo.</p>
+<div id="vega-chart"></div>
+<script type="text/javascript">
+  var spec = {
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Bar Chart with a spacing-saving y-axis",
+    "data": {"url": "https://vega.github.io/vega-lite/data/cars.json"},
+    "height": {"step": 50},
+    "mark": {"type": "bar", "yOffset": 5, "cornerRadiusEnd": 2, "height": {"band": 0.5}},
+    "encoding": {
+      "y": {
+        "field": "Origin",
+        "scale": {"padding": 0},
+        "axis": {
+          "bandPosition": 0,
+          "grid": true,
+          "domain": false,
+          "ticks": false,
+          "labelAlign": "left",
+          "labelBaseline": "middle",
+          "labelPadding": -5,
+          "labelOffset": -15,
+          "titleX": 5,
+          "titleY": -5,
+          "titleAngle": 0,
+          "titleAlign": "left"
+        }
+      },
+      "x": {
+        "aggregate": "count",
+        "axis": {"grid": false},
+        "title": "Number of Cars"
+      }
+    }
+  };
+
+<p>  vegaEmbed(‘#vega-chart’, spec);<br></script></p>
 
       
     </div>
@@ -347,7 +485,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
