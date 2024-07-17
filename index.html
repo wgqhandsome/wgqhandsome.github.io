@@ -175,10 +175,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
-              
 
-              <time title="Created: 2024-07-15 00:00:00 / Modified: 22:28:04" itemprop="dateCreated datePublished" datetime="2024-07-15T00:00:00+08:00">2024-07-15</time>
+              <time title="Created: 2024-07-15 00:00:00" itemprop="dateCreated datePublished" datetime="2024-07-15T00:00:00+08:00">2024-07-15</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2024-07-17 18:33:28" itemprop="dateModified" datetime="2024-07-17T18:33:28+08:00">2024-07-17</time>
+              </span>
 
           
 
@@ -191,44 +197,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h2 id="Vega-Lite-Chart-Example"><a href="#Vega-Lite-Chart-Example" class="headerlink" title="Vega-Lite Chart Example"></a>Vega-Lite Chart Example</h2><p>This is an example of embedding a Vega-Lite chart in Hexo.</p>
-<div id="vega-chart"></div>
-<script type="text/javascript">
-  var spec = {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "Bar Chart with a spacing-saving y-axis",
-    "data": {"url": "https://vega.github.io/vega-lite/data/cars.json"},
-    "height": {"step": 50},
-    "mark": {"type": "bar", "yOffset": 5, "cornerRadiusEnd": 2, "height": {"band": 0.5}},
-    "encoding": {
-      "y": {
-        "field": "Origin",
-        "scale": {"padding": 0},
-        "axis": {
-          "bandPosition": 0,
-          "grid": true,
-          "domain": false,
-          "ticks": false,
-          "labelAlign": "left",
-          "labelBaseline": "middle",
-          "labelPadding": -5,
-          "labelOffset": -15,
-          "titleX": 5,
-          "titleY": -5,
-          "titleAngle": 0,
-          "titleAlign": "left"
-        }
-      },
-      "x": {
-        "aggregate": "count",
-        "axis": {"grid": false},
-        "title": "Number of Cars"
-      }
-    }
-  };
-
-<p>  vegaEmbed(‘#vega-chart’, spec);<br></script></p>
-
+          <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">graph TD;</span><br><span class="line">    A--&gt;B;</span><br><span class="line">    A--&gt;C;</span><br><span class="line">    B--&gt;D;</span><br><span class="line">    C--&gt;D;</span><br></pre></td></tr></table></figure>
       
     </div>
 
@@ -579,6 +548,19 @@
 
 
 
+<script>
+if (document.querySelectorAll('pre.mermaid').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
+    mermaid.initialize({
+      theme    : 'forest',
+      logLevel : 3,
+      flowchart: { curve     : 'linear' },
+      gantt    : { axisFormat: '%m/%d/%Y' },
+      sequence : { actorMargin: 50 }
+    });
+  }, window.mermaid);
+}
+</script>
 
 
   
