@@ -12,10 +12,7 @@
 
 <link rel="stylesheet" href="/css/main.css">
 
-<!-- Vega scripts -->
-<script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
 
 
 
@@ -183,7 +180,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2024-07-17 18:33:28" itemprop="dateModified" datetime="2024-07-17T18:33:28+08:00">2024-07-17</time>
+                <time title="Modified: 2024-07-17 18:39:52" itemprop="dateModified" datetime="2024-07-17T18:39:52+08:00">2024-07-17</time>
               </span>
 
           
@@ -247,7 +244,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2024-07-15 22:26:19" itemprop="dateModified" datetime="2024-07-15T22:26:19+08:00">2024-07-15</time>
+                <time title="Modified: 2024-07-17 18:39:48" itemprop="dateModified" datetime="2024-07-17T18:39:48+08:00">2024-07-17</time>
               </span>
 
           
@@ -266,43 +263,6 @@
 
 <p>AI image generation refers to the use of artificial intelligence technologies to create, modify, or enhance images. Through deep learning algorithms, AI can learn and mimic various artistic styles, even creating entirely original artworks.</p>
 <h3 id="Examples-of-AI-Generated-Images"><a href="#Examples-of-AI-Generated-Images" class="headerlink" title="Examples of AI-Generated Images"></a>Examples of AI-Generated Images</h3><p><img src="/../images/got-for-it.webp" alt="AI-Generated image"><br><img src="/../images/pingpong.webp" alt="AI-Generated image"><br><img src="/../images/pingpong2.webp" alt="AI-Generated image"></p>
-<h2 id="Vega-Lite-Chart-Example"><a href="#Vega-Lite-Chart-Example" class="headerlink" title="Vega-Lite Chart Example"></a>Vega-Lite Chart Example</h2><p>This is an example of embedding a Vega-Lite chart in Hexo.</p>
-<div id="vega-chart"></div>
-<script type="text/javascript">
-  var spec = {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "Bar Chart with a spacing-saving y-axis",
-    "data": {"url": "https://vega.github.io/vega-lite/data/cars.json"},
-    "height": {"step": 50},
-    "mark": {"type": "bar", "yOffset": 5, "cornerRadiusEnd": 2, "height": {"band": 0.5}},
-    "encoding": {
-      "y": {
-        "field": "Origin",
-        "scale": {"padding": 0},
-        "axis": {
-          "bandPosition": 0,
-          "grid": true,
-          "domain": false,
-          "ticks": false,
-          "labelAlign": "left",
-          "labelBaseline": "middle",
-          "labelPadding": -5,
-          "labelOffset": -15,
-          "titleX": 5,
-          "titleY": -5,
-          "titleAngle": 0,
-          "titleAlign": "left"
-        }
-      },
-      "x": {
-        "aggregate": "count",
-        "axis": {"grid": false},
-        "title": "Number of Cars"
-      }
-    }
-  };
-
-<p>  vegaEmbed(‘#vega-chart’, spec);<br></script></p>
 
       
     </div>
